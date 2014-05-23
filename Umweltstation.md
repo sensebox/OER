@@ -13,21 +13,25 @@ Die unten aufgeführte Hardware wird benötigt, um die Umweltstation anhand dies
 
 ### 1.1 Basiskomponenten
 
-|Bild 1|Bild 2|Bild 3|
-|------|------|------|
-|Unterschrift 1|Unterschrift 2|Unterschrift 3|
+|![Arduino Uno](images/uno_top.png "Arduino Uno")|![Ethernet Shield](images/w5200_top.png "Ethernet Shield")|![Grove Base Shield](images/base_top.png "Grove Base Shield")|
+|:------:|:------:|:------:|
+|**Arduino Uno R3**|**W5200 Ethernet Shield V2.0**|**Grove - Base Shield V1.3**|
 
 ### 1.2 Sensoren
 
-|Sensor 1|Sensor 2|
-|--------|--------|
-|Sensor 3|Sensor 4|
+|![Grove Barometer - Sensor BMP085](images/pressure_bmp085.png "Grove Barometer - Sensor BMP085")|![Grove Temperatur/Luftfeuchtigkeit - Sensor DHT11](images/temp_dht11.png "Grove Temperatur/Luftfeuchtigkeit - Sensor DHT11")|
+|:--------:|:--------:|
+|**Grove Barometer - Sensor BMP085**|**Grove Temperatur/Luftfeuchtigkeit - Sensor DHT11**|
+|![Grove Helligkeit - Sensor GL5528](images/light.png "Grove Helligkeit - Sensor GL5528")|![Grove Lautstärke - Sensor LM386](images/sound.png "Grove Lautstärke - Sensor LM386")|
+|**Grove Helligkeit - Sensor GL5528**|**Grove Lautstärke - Sensor LM386**|
 
 ### 1.3 Zubehör
 
-|Zubehör 1|Zubehör 2|
-|---------|---------|
-|Zubehör 3|Zubehör 4|
+|![Netzteil (9V, 0.6A)](images/power_supply.png "Netzteil (9V, 0.6A)")|![Universal 4-Pin Kabel für Grove Sensoren](images/grove_cable.png "Universal 4-Pin Kabel für Grove Sensoren")|
+|:---------:|:---------:|
+|**Netzteil (9V, 0.6A)**|**Universal 4-Pin Kabel für Grove Sensoren**|
+|![USB-Kabel (Typ A/B)](images/usb_cable.png "USB-Kabel (Typ A/B)")|![Netzwerkkabel](images/lan_cable.png "Netzwerkkabel")|
+|**USB-Kabel (Typ A/B)**|**Netzwerkkabel (nicht im Lieferumfang enthalten)**|
 
 Des weiteren solltet ihr eure SenseBox ID bereit halten. Die wird später benötigt um euere Messungen auf der OpenSenseMap zu veröffentlichen.
 
@@ -49,7 +53,9 @@ Steckt als erstes das *Ethernet Shield* auf das *Arduino Uno*. Es erweitert den 
 
 Ganz oben auf den Stapel steckt ihr nun das *Grove Base Shield*. Mit ihm lassen sich Sensoren mit den entsprechenden Kabeln einfach und schnell anschließen.
 
-Bild!!!
+|![Basisstation Stack](images/pcb_stack.png "Platinenstapel der Basisstation")|
+|:------------:|
+|**Platinenstapel der Basisstation**|
 
 *Wichtig*: Achtet beim Stapeln der Schields darauf, dass alle Anschlüsse und Steckerleisten korrekt gesteckt sind!
 
@@ -80,7 +86,9 @@ Danach wechselt ihr in eurem Browser auf unsere [*Github*](https://github.com/se
 
 Dazu öffnet ihr das *Arduino* Installationsverzeichnis (bei Windows in der Regel unter C:/Programme/Arduino zu finden). Dort befindet sich das Verzeichnis "libraries", in welches ihr die drei Ordner aus der zip-Datei ("Barometer_Sensor", "EthernetV2_0" und "Humidity_Temperature_Sensor") kopiert.
 
-Bild!!!
+|![Bibliotheken kopieren](images/move_files.png "Bibliotheken kopieren")|
+|:-------:|
+|**Kopieren der Bibliotheken**|
 
 *Wichtig*: Falls die *Arduino* Software bereits gestartet wurde, müsst ihr nun das Programm neustarten, damit die neuen Bibliotheken korrekt geladen werden.
 
@@ -90,11 +98,15 @@ Nachdem ihr die Bibliotheken installiert habt, könnt ihr mit dem USB-Kabel die 
 
 Dort müsst ihr unter dem Reiter "Tools" -> "Board" das richtige *Arduino Board* auswählen. In unserem Fall also "Arduino Uno".
 
-Bild !!!
+|![Arduino Board auswählen](images/choose_board.png "Arduino Board auswählen")|
+|:-------:|
+|**Arduino Board auswählen**|
 
 Außerdem müsst ihr einen seriellen Port angeben, über den die Kommunikation zwischen Computer und Mikrokontroller läuft. Wählt dazu unter "Tools" -> "Serieller Port" den COM-Port aus, der von dem Treiber beim Anschließen des Arduino Uno geladen werden sollte.
 
-Bild !!!
+|![COM-Port auswählen](images/choose_port.png "COM-Port auswählen") |
+|:-------:|
+|**COM-Port auswählen**|
 
 Falls euch dort kein COM-Port zur Auswahl vorgeschlagen wird, lest bitte den entsprechenden Abschnitt zur Fehlerbehebung im Anhang.
 
@@ -109,7 +121,9 @@ Wählt dazu auf [OpenSenseMap](http://sensebox.uni-muenster.de/opensensemap/) di
 
 Nach erfolgreicher Registrierung wird euch vom OpenSenseMap Server eine ino-Datei erzeugt, die ihr über den Link im erscheinenden Textdialog aufrufen könnt. Wählt den kompletten Text von dieser Seite aus (Shortcut *Strg+A*), kopiert ihn (Shortcut *Strg+C*) und fügt ihn in der *Arduino IDE* (oder in einen Texteditor) wieder ein (Shortcut *Strg+V*). Dort speichert ihr die Datei erstmal ab, damit ihr eine Sicherungskopie habt. Beim abspeichern solltet ihr darauf achten, dass ihr die Datei mit der korrekten Endung z.B. "sensebox.ino" abspeichert.
 
-Bild !!!
+|![INO kopieren](images/copy_past.png "INO kopieren") |
+|:-------:|
+|**Kopieren des Sourcecode**|
 
 *Wichtig*: Der erzeugte Code ist genau auf eure Station und eure SenseBox ID angepasst, daher solltet ihr ihn gut abspeichern!
 
@@ -169,5 +183,6 @@ Die analogen Sensoren (Schall, Licht, Temperatur & Luftfeuchte) sollten separat 
 
 *Wichtig*: Die Kabel der Sensoren als auch Netzwer- und Stromkabel müssen nach unten aus dem Gehäuse gehen! Außerdem ist beim Stromanschluss besondere Vorsicht dabei geboten, den Stecker wasserfest anzubringen!
 
-Bild !!!
-
+|![Exemplarischer Stationsaufbau](images/aufbau.png "Exemplarischer Stationsaufbau") |
+|:-------:|
+|**Exemplarischer Stationsaufbau**|
