@@ -1,7 +1,7 @@
-# SenseBox Umwelstation - Bauanleitung
+# SenseBox basic - Bauanleitung
 
 In dieser Anleitung wird schrittweise beschrieben, wie die
-SenseBox Umweltstation zusammengebaut und programmiert wird. Außderdem wird erläutert, wie die Station aufgestellt und angeschlossen werden sollte, damit die Datenübertragung auf die OpeneSenseMap reibungslos funktioniert.
+SenseBox basic Umweltstation zusammengebaut und programmiert wird. Außderdem wird erläutert, wie die Station aufgestellt und angeschlossen werden sollte, damit die Datenübertragung auf die OpeneSenseMap reibungslos funktioniert.
 
 Viel Spaß mit eurer neuen Messstation wünscht euch
 
