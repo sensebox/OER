@@ -34,6 +34,7 @@ Die unten aufgeführte Hardware wird benötigt, um die Umweltstation anhand dies
 |**USB-Kabel (Typ A/B)**|**Netzwerkkabel (nicht im Lieferumfang enthalten)**|
 
 Des weiteren solltet ihr eure SenseBox ID bereit halten. Die wird später benötigt um euere Messungen auf der OpenSenseMap zu veröffentlichen.
+Falls ihr noch keine SenseBox ID habt, könnt ihr eure vorab [**hier**](http://opensensemap.org/#/getid) generieren oder bei der Registrierung auf ![SenseBox ID Hilfe](images/senseboxidhelp.png "SenseBox ID Hilfe") klicken.
 
 ## 2. Aufbau
 
