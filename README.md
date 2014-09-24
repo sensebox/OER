@@ -4,4 +4,6 @@ In diesem Repository findet ihr alle Anleitungen zu den Standardvarianten der Se
 
 ## SenseBox Umweltstation
 
-<span style="color:red;">Die</span> genaue Anleitung zur SenseBox Umweltstation findet ihr [hier](Umweltstation.md).
+<span style="color:red;">Die</span> genaue Anleitung zur **SenseBox Basic** Umweltstation findet ihr [hier](SenseBoxBasic.md).
+
+<span style="color:red;">Die</span> genaue Anleitung zur **SenseBox Pro** Umweltstation findet ihr [hier](SenseBoxPro.md).
