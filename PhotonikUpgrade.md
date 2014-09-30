@@ -2,7 +2,7 @@
 Um eure SenseBox als Photonik Messstation nutzen zu können benötigt ihr neben der SenseBox Basic folgende Hardware:
 ##Sensoren
 Digital Light Sensor - Grove (TSL2561)
-UV - Sensor
+UV Sensor - Grove (GUVA-S12D)
 
 |![Digital Light Sensor - Grove TSL2561](images/digitallight.jpg "Digital Light Sensor - Grove TSL2561")|![Grove UV Sensor - GUVA-S12D](images/uvsensor_resized.jpg "Grove UV Sensor - GUVA-S12D")|
 |:--------:|:--------:|
@@ -18,3 +18,11 @@ Zusammengefasst noch einmal die Ports:
 - UV-Sensor               A3
 
 ##Programmierung
+
+Um den Code auf eurer SenseBox aktualisieren zu benötigt ihr wieder die Arduino Software Version 1.0.5 von der offiziellen Homepage. Auch einige der Photonik Sensoren benötigen eigene Repositorys, die ihr HIER herunterladen könnt. Benötigt wird die Digital_Light_Sensor.zip. Die heruntergeladene Datei entpackt ihr und kopiert sie in das Arduino Installationsverzeichnis. Eine detailliertere Anleitung zum Einbinden von Repositorys findet ihr HIER.
+Nachdem die Repositorys hinzugefügt sind, müsst ihr nur noch den angepassten Code für das Photonik Upgrade herunterladen und mit Hilfe der Arduino IDE auf eure SenseBox übertragen. Wenn ihr nicht mehr genau wisst wie man einen Sketch auf die Sensebox überträgt schaut HIER nach.
+
+##Registrierung auf der OpenSenseMap
+
+
+
