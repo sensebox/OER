@@ -14,8 +14,8 @@ Der Digital Light Sensor wird an einen der I2C-Ports angeschlossen. Welchen ihr 
 Der UV-Sensor wird an den analogen Port A3 angeschlossen. Falls ihr hier einen anderen Port verwendet, müsst ihr diese Änderung auch im Sketch der SenseBox durchführen.
 
 Zusammengefasst noch einmal die Ports:
-- Digital Light Sensor    I2C
-- UV-Sensor               A3
+- Digital Light Sensor:    I2C
+- UV-Sensor:               A3
 
 ##Programmierung
 
