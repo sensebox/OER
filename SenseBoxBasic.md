@@ -1,7 +1,7 @@
 # SenseBox Basic - Bauanleitung
 
 In dieser Anleitung wird schrittweise beschrieben, wie die
-SenseBox Basic Umweltstation zusammengebaut und programmiert wird. Außderdem wird erläutert, wie die Station aufgestellt und angeschlossen werden sollte, damit die Datenübertragung auf die OpeneSenseMap reibungslos funktioniert.
+SenseBox Basic zusammengebaut und programmiert wird. Außderdem wird erläutert, wie die Station aufgestellt und angeschlossen werden sollte, damit die Datenübertragung auf die OpeneSenseMap reibungslos funktioniert.
 
 Viel Spaß mit eurer neuen Messstation wünscht euch
 
@@ -74,11 +74,11 @@ Welchen der I2C Anschlüsse ihr für das Barometer benutzt ist hingegen egal, da
 
 ### 2.4 Station mit dem Netzwerk verbinden
 
-Bevor der Code hochgeladen wird, solltet ihr die Messstation durch ein Netzwerkkabel mit eurem Heimnetzwerk verbinden. Die Station ist darauf ausgerichtet, dass das angeschlossene Netzwerk DHCP unterstützt. Falls das nicht der Fall sein sollte, lest den entsprechenden Eintrag in der Fehlerbehebung im Anhang. Dort steht beschrieben, wie man das Netzwerk manuell einrichten kann. An einer WLAN-Lösung wird momentan gearbeitet.
+Bevor der Code hochgeladen wird, solltet ihr die Messstation durch ein Netzwerkkabel mit eurem Heimnetzwerk verbinden. Die Station ist darauf ausgerichtet, dass das angeschlossene Netzwerk DHCP unterstützt. Falls das nicht der Fall sein sollte, lest den entsprechenden Eintrag in der Fehlerbehebung im Anhang. Dort steht beschrieben, wie man das Netzwerk manuell einrichten kann. Eine WLAN-Lösung wird in der SenseBox Pro verwendet.
 
 ## 3. Programmierung
 
-Hier beschreiben wir Schritt für Schritt wie man das *Arduino Uno* anschließen, installieren und programmieren muss. Diejenigen, die bereits Erfahrung im Umgang mit *Arduino-Boards* haben, können direkt die zusätzlichen Bibliotheken installieren und den SenseBo Sketch auf das Board laden. Für Arduino Einsteiger empfiehlt sich hingegen ein Blick auf [Erste Schritte mit Arduino](http://arduino.cc/de/Guide/HomePage), auf der die ersten Schritte mit dem Arduino ausführlich erklärt werden.
+Hier beschreiben wir Schritt für Schritt wie man das *Arduino Uno* anschließen, installieren und programmieren muss. Diejenigen, die bereits Erfahrung im Umgang mit *Arduino-Boards* haben, können direkt die zusätzlichen Bibliotheken installieren und den SenseBox Sketch auf das Board laden. Für Arduino Einsteiger empfiehlt sich hingegen ein Blick auf [Erste Schritte mit Arduino](http://arduino.cc/de/Guide/HomePage), auf der die ersten Schritte mit dem Arduino ausführlich erklärt werden.
 
 ### 3.1 Arduino Software installieren
 
