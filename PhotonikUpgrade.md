@@ -28,6 +28,7 @@ Zur Zeit müsst ihr leider nach dem Photonik Upgrade eine neue SenseBox anlegen.
 Eine neue Sensebox könnt ihr [HIER](http://opensensemap.org/#/register) registrieren. Klickt auf "Ich möchte eine neue SenseBox Basic anlegen!", füllt das Formular aus und fügt die folgenden beiden Sensoren hinzu:
 - Licht (digital)         Einheit: Lux                   Typ: TSL2561
 - UV                       Einheit: UV-Index Skala        Typ: GUVA-S12D
+
 Klickt anschließend auf Speichern und die Einrichtung ist abgeschlossen.
 
 
