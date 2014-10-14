@@ -18,12 +18,12 @@ Zusammengefasst noch einmal die Ports:
 
 ##Programmierung
 
-Um den Code auf eurer SenseBox zu aktualisieren, benötigt ihr wieder die Arduino Software Version 1.0.5 von der [offiziellen Homepage](http://www.arduino.cc). Auch der digitale Licht-Sensor benötigt eine eigene Repository, die ihr [HIER](http://www.seeedstudio.com/wiki/File:Digital_Light_Sensor.zip) herunterladen könnt. Benötigt wird die Digital_Light_Sensor.zip. Die heruntergeladene Datei entpackt ihr und kopiert sie in das Arduino Installationsverzeichnis. Eine detailliertere Anleitung zum Einbinden von Repositorys findet ihr [HIER](https://github.com/sensebox/OER/blob/master/SenseBoxBasic.md).
-Nachdem die Repositorys hinzugefügt sind, müsst ihr nur noch den angepassten Code für das Photonik Upgrade herunterladen und mit Hilfe der Arduino IDE auf eure SenseBox übertragen. Wenn ihr nicht mehr genau wisst wie man einen Sketch auf die SenseBox überträgt schaut [HIER](https://github.com/sensebox/OER/blob/master/SenseBoxBasic.md) nach.
+Um den Code auf eurer SenseBox zu aktualisieren, benötigt ihr wieder die Arduino Software Version 1.0.5 von der [offiziellen Homepage](http://www.arduino.cc). Auch der digitale Licht-Sensor benötigt eine eigene Library, die ihr [HIER](libs/Digital_Light_Sensor.zip) herunterladen könnt. Die heruntergeladene Datei entpackt ihr und kopiert sie in das Arduino Installationsverzeichnis. Eine detailliertere Anleitung zum Einbinden von Libraries findet ihr [HIER](https://github.com/sensebox/OER/blob/master/SenseBoxBasic.md).
+Nachdem die Library hinzugefügt ist, müsst ihr nur noch den angepassten Code für das Photonik Upgrade herunterladen und mit Hilfe der Arduino IDE auf eure SenseBox übertragen. Wenn ihr nicht mehr genau wisst wie man einen Sketch auf die SenseBox überträgt schaut [HIER](https://github.com/sensebox/OER/blob/master/SenseBoxBasic.md) nach.
 
 ##Registrierung auf der OpenSenseMap
 
-Zur Zeit müsst ihr leider nach dem Photonik Upgrade eine neue SenseBox anlegen. Wir arbeiten aber daran, dass ihr eure bestehende Sensebox einfach um die neuen Sensoren erweitern könnt. 
+Zur Zeit müsst ihr leider nach dem Photonik Upgrade eine neue SenseBox anlegen. Wir arbeiten aber daran, dass ihr eure bestehende Sensebox einfach um die neuen Sensoren erweitern könnt.
 
 Eine neue Sensebox könnt ihr [HIER](http://opensensemap.org/#/register) registrieren. Klickt auf "Ich möchte eine neue SenseBox Basic anlegen!", füllt das Formular aus und fügt die folgenden beiden Sensoren hinzu:
 - Licht (digital)         Einheit: Lux                   Typ: TSL2561
