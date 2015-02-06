@@ -12,17 +12,17 @@ Die unten aufgeführte Hardware wird benötigt, um die Umweltstation anhand dies
 
 ### 1.1 Basiskomponenten
 
-|<img src="images/uno_top.png" width="250"/>|<img src="images/base_top.png" width="250"/>|<img src="images/w5200_top.png" width="250"/>|
+|<img src="images/uno_top.png" width="250"/>|<img src="image/Base_Shield_v2.png" width="250"/>|<img src="images/w5200_top.png" width="250"/>|
 |:------:|:------:|:------:|
-|**Arduino Uno R3**|**Grove - Base Shield V1.3**|**W5200 Ethernet Shield V2.0**|
+|**Arduino Uno R3**|**Seed Studio - Base Shield V2**|**W5200 Ethernet Shield V2.0**|
 
 ### 1.2 Sensoren
 
 |![Grove Barometer - Sensor BMP085](images/pressure_bmp085.png "Grove Barometer - Sensor BMP085")|![Grove Temperatur/Luftfeuchtigkeit - Sensor DHT11](images/temp_dht11.png "Grove Temperatur/Luftfeuchtigkeit - Sensor DHT11")|
 |:--------:|:--------:|
 |**Grove Barometer - Sensor BMP085**|**Grove Temperatur/Luftfeuchtigkeit - Sensor DHT11**|
-|![Grove Helligkeit - Sensor GL5528](images/light.png "Grove Helligkeit - Sensor GL5528")|![Grove Lautstärke - Sensor LM386](images/sound.png "Grove Lautstärke - Sensor LM386")|
-|**Grove Helligkeit - Sensor GL5528**|**Grove Lautstärke - Sensor LM386**|
+|<img src="images/UV_Sensor_01.jpg" width="170"/> |<img src="images/sound.png" width="170"/>|
+|**Grove UV - Sensor GUVA-S12D**|**Grove Lautstärke - Sensor LM386**|
 
 ### 1.3 Zubehör
 
