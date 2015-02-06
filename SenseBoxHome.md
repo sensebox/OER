@@ -12,7 +12,7 @@ Die unten aufgeführte Hardware wird benötigt, um die Umweltstation anhand dies
 
 ### 1.1 Basiskomponenten
 
-|<img src="images/uno_top.png" width="250"/>|<img src="image/Base_Shield_v2.png" width="250"/>|<img src="images/w5200_top.png" width="250"/>|
+|<img src="images/uno_top.png" width="250"/>|<img src="images/Base_Shield_v2.png" width="250"/>|<img src="images/w5200_top.png" width="250"/>|
 |:------:|:------:|:------:|
 |**Arduino Uno R3**|**Seed Studio - Base Shield V2**|**W5200 Ethernet Shield V2.0**|
 
