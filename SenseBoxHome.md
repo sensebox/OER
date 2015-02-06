@@ -12,9 +12,9 @@ Die unten aufgeführte Hardware wird benötigt, um die Umweltstation anhand dies
 
 ### 1.1 Basiskomponenten
 
-|![Arduino Uno](images/uno_top.png "Arduino Uno")|![Ethernet Shield](images/w5200_top.png "Ethernet Shield")|![Grove Base Shield](images/base_top.png "Grove Base Shield")|
+|<img src="images/uno_top.png" width="250"/>|<img src="images/base_top.png" width="250"/>|<img src="images/w5200_top.png" width="250"/>|
 |:------:|:------:|:------:|
-|**Arduino Uno R3**|**W5200 Ethernet Shield V2.0**|**Grove - Base Shield V1.3**|
+|**Arduino Uno R3**|**Grove - Base Shield V1.3**|**W5200 Ethernet Shield V2.0**|
 
 ### 1.2 Sensoren
 
@@ -26,7 +26,7 @@ Die unten aufgeführte Hardware wird benötigt, um die Umweltstation anhand dies
 
 ### 1.3 Zubehör
 
-|![Netzteil (9V, 0.6A)](images/power_supply.png "Netzteil (9V, 0.6A)")|![Universal 4-Pin Kabel für Grove Sensoren](images/grove_cable.png "Universal 4-Pin Kabel für Grove Sensoren")|
+|<img src="images/power_supply.png" width="250"/>|<img src="images/grove_cable.png" width="250"/>|
 |:---------:|:---------:|
 |**Netzteil (9V, 0.6A)**|**Universal 4-Pin Kabel für Grove Sensoren**|
 |![USB-Kabel (Typ A/B)](images/usb_cable.png "USB-Kabel (Typ A/B)")|![Netzwerkkabel](images/lan_cable.png "Netzwerkkabel")|
@@ -72,7 +72,7 @@ Danach wechselt ihr in eurem Browser auf [unsere *Github* Seite](https://github.
 
 Dazu öffnet ihr das *Arduino* Installationsverzeichnis (bei Windows in der Regel unter C:/Programme/Arduino zu finden). Dort befindet sich das Verzeichnis "libraries", in welches ihr die drei Ordner aus der zip-Datei ("Barometer_Sensor", "EthernetV2_0" und "Humidity_Temperature_Sensor") kopiert.
 
-|![Bibliotheken kopieren](images/move_files.png "Bibliotheken kopieren")|
+|<img src="images/move_files.png" width="800"/>|
 |:-------:|
 |**Kopieren der Bibliotheken**|
 
@@ -84,13 +84,13 @@ Nachdem ihr die Bibliotheken installiert habt, könnt ihr mit dem USB-Kabel die 
 
 Dort müsst ihr unter dem Reiter "Tools" -> "Board" das richtige *Arduino Board* auswählen. In unserem Fall also "Arduino Uno".
 
-|![Arduino Board auswählen](images/choose_board.png "Arduino Board auswählen")|
+|<img src="images/choose_board.png" width="600"/>|
 |:-------:|
 |**Arduino Board auswählen**|
 
 Außerdem müsst ihr einen seriellen Port angeben, über den die Kommunikation zwischen Computer und Mikrokontroller läuft. Wählt dazu unter "Tools" -> "Serieller Port" den COM-Port aus, der von dem Treiber beim Anschließen des Arduino Uno geladen werden sollte.
 
-|![COM-Port auswählen](images/choose_port.png "COM-Port auswählen") |
+|<img src="images/choose_port.png" width="600"/>|
 |:-------:|
 |**COM-Port auswählen**|
 
@@ -169,6 +169,6 @@ Die analogen Sensoren (Schall, Temperatur & Luftfeuchte) sollten separat in eine
 
 *Wichtig*: Die Kabel aller Sensoren, Netzwerk- und Stromkabel müssen nach unten aus dem Gehäuse geleitet werden! Außerdem muss der Stromanschluss unbedingt wasserfest angebracht werden!
 
-|![Exemplarischer Stationsaufbau](images/aufbau.png "Exemplarischer Stationsaufbau") |
+|<img src="images/aufbau.png" width="800"/>|
 |:-------:|
 |**Exemplarischer Stationsaufbau**|
