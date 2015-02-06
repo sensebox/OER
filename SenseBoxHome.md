@@ -44,16 +44,16 @@ Durch das Stecksystem dauert der Aufbau eurer Station nur wenige Minuten. Vorweg
 
 ### 2.2 Basisstation aufbauen
 
-Der Kern unserer Station besteht aus drei Komponenten: dem *Arduino Uno* Mikrokontroller, dem *Ethernet Shield* und dem *Grove Base Shield*.
+Der Kern unserer Station besteht aus drei Komponenten: dem *Arduino Uno* Mikrokontroller, dem *Ethernet Shield* und dem *Seeed Studio Base Shield*.
 
-Steckt als erstes das *Grove Base Shield* auf das *Arduino Uno*. Daran werden die Sensoren wie folgt angeschlossen:
+Steckt als erstes das *Seeed Studio Base Shield* auf das *Arduino Uno*. Daran werden die Sensoren wie folgt angeschlossen:
 
 * A0: UV Sensor
 * A1: Temperatur und Luftfeuchte Sensor
 * I2C: Digitaler Lichtsensor 
 * I2C: Barometer
 
-Steckt nun das *Ethernet Shield* auf das *Grove Base Shield* mit den Sensoren. Es erweitert die Station0 mit der Möglichkeit eine Internetverbindung aufzubauen und als Webclient mit dem OpenSenseMap Server zu kommunizieren.
+Steckt nun das *Ethernet Shield* auf das *Seeed Studio Base Shield* mit den Sensoren. Es erweitert die Station0 mit der Möglichkeit eine Internetverbindung aufzubauen und als Webclient mit dem OpenSenseMap Server zu kommunizieren.
 
 *Wichtig*: Achtet beim Stapeln der Schields darauf, dass alle Anschlüsse und Steckerleisten korrekt gesteckt sind und keine Kabel beschädigt werden!
 
@@ -139,7 +139,7 @@ Damit die Messdaten für die Forschung, aber auch für Bürger interessant werde
 
 ### 4.2 Wasserfestes Gehäuse
 
-Der Hauptteil der SenseBox Home (*Arduino Uno, Ethernet Shield* und *Grove Base Shield*) muss unter allen Umständen wasserdicht eingeschlossen werden. Daher sollte der Basisteil der Station in einem Gehäuse der Schutzart *IP55* untergebracht werden. Solche Gehäuse sind in jedem Baumarkt oder im Internet erhältlich.
+Der Hauptteil der SenseBox Home (*Arduino Uno, Ethernet Shield* und *Seeed Studio Base Shield*) muss unter allen Umständen wasserdicht eingeschlossen werden. Daher sollte der Basisteil der Station in einem Gehäuse der Schutzart *IP55* untergebracht werden. Solche Gehäuse sind in jedem Baumarkt oder im Internet erhältlich.
 Für die einzelnen Sensoren ist weiterhin folgendes zu beachten:
 
 Barometer sollte..
