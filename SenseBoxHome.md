@@ -1,6 +1,6 @@
 # SenseBox Home (2015) - Bauanleitung
 
-In dieser Anleitung wird schrittweise beschrieben, wie die SenseBox Home zusammengebaut und programmiert wird. Außderdem wird erläutert, wie die Station aufgestellt und angeschlossen werden sollte, damit die Datenübertragung auf die OpeneSenseMap reibungslos funktioniert. <!--Wir gehen im Folgenden davon aus, dass ihr euch bereits auf der [OpenSenseMap registriert habt](http://opensensemap.org/#/register), und von uns eine ino-Datei zugeschickt bekommen habt.-->
+In dieser Anleitung wird schrittweise beschrieben, wie die SenseBox Home zusammengebaut und programmiert wird. Außderdem wird erläutert, wie die Station aufgestellt und angeschlossen werden sollte, damit die Datenübertragung auf die OpeneSenseMap reibungslos funktioniert. 
 
 Viel Spaß mit eurer neuen Messstation wünscht euch
 
@@ -32,9 +32,6 @@ Die unten aufgeführte Hardware wird benötigt, um die Umweltstation anhand dies
 |![USB-Kabel (Typ A/B)](images/usb_cable.png "USB-Kabel (Typ A/B)")|![Netzwerkkabel](images/lan_cable.png "Netzwerkkabel")|
 |**USB-Kabel (Typ A/B)**|**Netzwerkkabel (nicht im Lieferumfang enthalten)**|
 
-<!--Des weiteren solltet ihr eure SenseBox ID bereit halten. Die wird später benötigt um euere Messungen auf der OpenSenseMap zu veröffentlichen.
-Falls ihr noch keine SenseBox ID habt, könnt ihr eure vorab [**hier**](http://opensensemap.org/#/getid) generieren oder bei der Registrierung auf ![SenseBox ID Hilfe](images/senseboxidhelp.png "SenseBox ID Hilfe") klicken.
--->
 ## 2. Aufbau
 
 Durch das Stecksystem dauert der Aufbau eurer Station nur wenige Minuten. Vorweg ein paar wichtige Hinweise die es zu beachten gilt.
@@ -57,10 +54,6 @@ Steckt als erstes das *Grove Base Shield* auf das *Arduino Uno*. Daran werden di
 * I2C: Barometer
 
 Steckt nun das *Ethernet Shield* auf das *Grove Base Shield* mit den Sensoren. Es erweitert die Station0 mit der Möglichkeit eine Internetverbindung aufzubauen und als Webclient mit dem OpenSenseMap Server zu kommunizieren.
-
-<!--|![Basisstation Stack](images/pcb_stack.png "Platinenstapel der Basisstation")|
-|:------------:|
-|**Platinenstapel der Basisstation**|-->
 
 *Wichtig*: Achtet beim Stapeln der Schields darauf, dass alle Anschlüsse und Steckerleisten korrekt gesteckt sind und keine Kabel beschädigt werden!
 
@@ -129,9 +122,7 @@ Wenn alles richtig angeschlossen und das Netzwerk über DHCP konfiguriert wird, 
 ## 4. Aufstellen
 
 Hier geben wir einen Vorschlag wie die Station aufgestellt werden kann. Wichtig ist, dass die SenseBox in einem wasserfesten Gehäuse installiert wird und die Sensoren vor direkter Sonneneinstrahlung geschützt werden!
-<!--Bevor die Station aufgestellt wird, sollte sie vorher 1-2 Tage testen, ob alle Sensoren funktionieren und die Datenübertragung läuft.
-Wenn alles funktioniert, kann die Station für den Außeneinsatz vorbereitet werden.
--->
+
 Benötigt wird folgendes:
 * kleines geschlossenes Schutzgehäuse (IP 55)
 * keines belüftetes (oder nach unten hin offenes) Schutzgehäuse
