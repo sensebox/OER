@@ -131,7 +131,7 @@ Des weiteren solltet ihr wissen, welche Verschlüsselung euer WLAN-Router benutz
 
 `#define WLAN_SECURITY WLAN_SEC_WPA2`
 
-*Hinweiß*: Zeilen im Code die mit `//` beginnen sind einfache Kommentare und werden vom Compiler nicht mit übersetzt und auch nicht mit auf das Board geladen.
+*Hinweis*: Zeilen im Code die mit `//` beginnen sind einfache Kommentare und werden vom Compiler nicht mit übersetzt und auch nicht mit auf das Board geladen. Sie dienen einfach zur besseren Orientierung oder zur Dokumentation.
 
 ### 3.6 Sketch auf das Arduino Board hochladen
 
