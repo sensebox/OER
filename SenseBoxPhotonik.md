@@ -36,7 +36,7 @@ Die unten aufgeführte Hardware wird benötigt, um die Umweltstation anhand dies
 |:---------:|:---------:|
 |**Netzteil (9V, 0.6A)**|**Universal 4-Pin Kabel für Grove Sensoren**|
 |![USB-Kabel (Typ A/B)](images/usb_cable.png "USB-Kabel (Typ A/B)")|![Netzwerkkabel](images/lan_cable.png "Netzwerkkabel")|
-|**USB-Kabel (Typ A/B)**|**Netzwerkkabel (nicht im Lieferumfang enthalten)**|
+|**USB-Kabel (Typ A/B)**|**Netzwerkkabel (nur für Ethernet Version! Nicht im Lieferumfang enthalten)**|
 
 ## 2. Aufbau
 
@@ -50,7 +50,7 @@ Durch das Stecksystem dauert der Aufbau eurer Station nur wenige Minuten. Vorweg
 
 ### 2.2 Basisstation aufbauen
 
-Der Kern unserer Station besteht aus drei Komponenten: dem *Arduino Uno* Mikrokontroller, dem *Ethernet Shield/WiFi Shield* und dem *Seeed Studio Base Shield*.
+Der Kern unserer Station besteht aus drei Komponenten: dem *Arduino Uno* Mikrokontroller, dem *Ethernet Shield bzw. WiFi Shield* und dem *Seeed Studio Base Shield*.
 
 Steckt als erstes das *Seeed Studio Base Shield* auf das *Arduino Uno*. Daran werden die Sensoren wie folgt angeschlossen:
 
@@ -59,11 +59,11 @@ Steckt als erstes das *Seeed Studio Base Shield* auf das *Arduino Uno*. Daran we
 * I2C: Digitaler Lichtsensor 
 * I2C: Barometer
 
-Steckt nun das *Ethernet Shield/WiFi Shield* auf das *Seeed Studio Base Shield* mit den Sensoren. Es erweitert die Station0 mit der Möglichkeit eine Internetverbindung aufzubauen und als Webclient mit dem OpenSenseMap Server zu kommunizieren.
+Steckt nun das *Ethernet Shield bzw. WiFi Shield* auf das *Seeed Studio Base Shield* mit den Sensoren. Es erweitert die Station mit der Möglichkeit eine Internetverbindung aufzubauen und als Webclient mit dem OpenSenseMap Server zu kommunizieren.
 
 *Wichtig*: Achtet beim Stapeln der Schields darauf, dass alle Anschlüsse und Steckerleisten korrekt gesteckt sind und keine Kabel beschädigt werden!
 
-### 2.4 Station mit dem Netzwerk verbinden
+### 2.3 Station mit dem Netzwerk verbinden (Ethernet-Version)
 
 Bevor der Code hochgeladen wird, solltet ihr die Messstation durch ein Netzwerkkabel mit eurem Heimnetzwerk verbinden. Die Station ist darauf ausgerichtet, dass das angeschlossene Netzwerk DHCP unterstützt. Falls das nicht der Fall sein sollte, solltet ihr eine feste IP (entsprechend der Netzwerkeinstellungen) in der ino-Datei einstellen.
 
@@ -115,7 +115,24 @@ Nach erfolgreicher Registrierung wird euch von uns eine ino-Datei zu der angegeb
 
 *Wichtig*: Der erzeugte Code ist genau auf eure Station und eure SenseBox ID angepasst und ist daher nicht für andere SenseBox Stationen gültig.
 
-### 3.4 Sketch auf das Arduino Board hochladen
+### 3.5 WiFi Einstellungen (WiFi-Version)
+
+Um die Station mit eurem WLAN-Zugangspunkt zu verbinden braucht ihr eure Netzwerkkennung (SSID) und das zugehörige Passwort. Eure SSID und euer Passwort müsst ihr einmal in der ino-Datei angeben. Dazu öffnet die Datei und passt die folgenden Zeilen an:
+
+`// WLAN parameters`
+
+`#define WLAN_SSID "WLAN_Name"`
+
+`#define WLAN_PASS "WLAN_Passwort"`
+
+Des weiteren solltet ihr wissen, welche Verschlüsselung euer WLAN-Router benutzt. Die unterstützten Verschlüsselungsmethoden sind WPA, WPA2 und WEP. Meistens wird WPA2 genutzt, daher ist diese Verschlüsselung als Standart eingestellt. Falls ihr das ändern wollt, veränder folgende Zeile:
+
+`// Security can be WLAN_SEC_UNSEC, WLAN_SEC_WEP, WLAN_SEC_WPA or WLAN_SEC_WPA2`
+`#define WLAN_SECURITY WLAN_SEC_WPA2`
+
+*Hinweiß*: Zeilen im Code die mit `//` beginnen sind einfache Kommentare und werden vom Compiler nicht mit übersetzt und auch nicht mit auf das Board geladen.
+
+### 3.6 Sketch auf das Arduino Board hochladen
 
 Der Sketch wird auf das *Arduino Uno* geladen, indem ihr auf das Pfeil-Symbol links in der Werkzeugleiste der Arduino IDE klickt. Nach einer kurzen Weile bekommt ihr eine Rückmeldung vom Programm, dass der Sketch kompiliert und hochgeladen wurde. Um nun zu testen ob das Programm mit den Einstellungen funktioniert, ruft ihr den seriellen Monitor über den Button mit der Lupe rechts in der Werkzeugleiste auf. 
 
