@@ -128,6 +128,7 @@ Um die Station mit eurem WLAN-Zugangspunkt zu verbinden braucht ihr eure Netzwer
 Des weiteren solltet ihr wissen, welche Verschlüsselung euer WLAN-Router benutzt. Die unterstützten Verschlüsselungsmethoden sind WPA, WPA2 und WEP. Meistens wird WPA2 genutzt, daher ist diese Verschlüsselung als Standart eingestellt. Falls ihr das ändern wollt, veränder folgende Zeile:
 
 `// Security can be WLAN_SEC_UNSEC, WLAN_SEC_WEP, WLAN_SEC_WPA or WLAN_SEC_WPA2`
+
 `#define WLAN_SECURITY WLAN_SEC_WPA2`
 
 *Hinweiß*: Zeilen im Code die mit `//` beginnen sind einfache Kommentare und werden vom Compiler nicht mit übersetzt und auch nicht mit auf das Board geladen.
