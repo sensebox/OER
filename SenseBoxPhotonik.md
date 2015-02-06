@@ -27,8 +27,8 @@ Die unten aufgeführte Hardware wird benötigt, um die Umweltstation anhand dies
 |![Grove Barometer - Sensor BMP085](images/pressure_bmp085.png "Grove Barometer - Sensor BMP085")|![Grove Temperatur/Luftfeuchtigkeit - Sensor DHT11](images/temp_dht11.png "Grove Temperatur/Luftfeuchtigkeit - Sensor DHT11")|
 |:--------:|:--------:|
 |**Grove Barometer - Sensor BMP085**|**Grove Temperatur/Luftfeuchtigkeit - Sensor DHT11**|
-|<img src="images/UV_Sensor_01.jpg" width="170"/> |<img src="images/sound.png" width="170"/>|
-|**Grove UV - Sensor GUVA-S12D**|**Grove Lautstärke - Sensor LM386**|
+|<img src="images/UV_Sensor_01.jpg" width="170"/> |<img src="images/Digital_Light_Sensor.jpg" width="170"/>|
+|**Grove UV - Sensor GUVA-S12D**|**Grove Digital Light Sensor - Sensor TSL2561**|
 
 ### 1.3 Zubehör
 
