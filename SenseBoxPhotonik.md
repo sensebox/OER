@@ -65,6 +65,8 @@ Steckt nun das *Ethernet Shield bzw. WiFi Shield* auf das *Seeed Studio Base Shi
 
 ### 2.3 Station mit dem Netzwerk verbinden (Ethernet-Version)
 
+*Beim Aufbau der WiFi-Version kann dieser Punkt übersprungen werden*
+
 Bevor der Code hochgeladen wird, solltet ihr die Messstation durch ein Netzwerkkabel mit eurem Heimnetzwerk verbinden. Die Station ist darauf ausgerichtet, dass das angeschlossene Netzwerk DHCP unterstützt. Falls das nicht der Fall sein sollte, solltet ihr eine feste IP (entsprechend der Netzwerkeinstellungen) in der ino-Datei einstellen.
 
 ## 3. Programmierung
@@ -73,7 +75,8 @@ Hier beschreiben wir Schritt für Schritt wie man das *Arduino Uno* anschließen
 
 ### 3.1 Arduino Software installieren
 
-Ladet als erstes das Installationsprogramm für die *Arduino Software Version 1.0.5* von der [offiziellen Homepage](http://arduino.cc/en/Main/OldSoftwareReleases) herunter und installiert es.
+Ladet als erstes das Installationsprogramm für die *Arduino Software Version 1.0.5* von der [offiziellen Homepage](http://arduino.cc/en/Main/OldSoftwareReleases) herunter und installiert es. Da bei den neueren Verionen der *Arduino IDE* Probleme beim kompilieren der Software auftreten können empfehlen wir die oben genannte Version.
+
 Danach wechselt ihr in eurem Browser auf [unsere *Github* Seite](https://github.com/sensebox/arduino) und ladet dort die zip-Datei mit den benötigten Software-Bibliotheken über den Button am rechten Fensterrand herunter. 
 In dieser Datei befindet sich der Ordner "arduino-master", in dem sich wiederum drei Ordner mit Bibliotheken befinden, um die die *Arduino* Software erweitert werden muss.
 
