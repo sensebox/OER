@@ -77,7 +77,7 @@ Ladet als erstes das Installationsprogramm für die *Arduino Software Version 1.
 Danach wechselt ihr in eurem Browser auf [unsere *Github* Seite](https://github.com/sensebox/arduino) und ladet dort die zip-Datei mit den benötigten Software-Bibliotheken über den Button am rechten Fensterrand herunter. 
 In dieser Datei befindet sich der Ordner "arduino-master", in dem sich wiederum drei Ordner mit Bibliotheken befinden, um die die *Arduino* Software erweitert werden muss.
 
-Dazu öffnet ihr das *Arduino* Installationsverzeichnis (bei Windows in der Regel unter C:/Programme/Arduino zu finden). Dort befindet sich das Verzeichnis "libraries", in welches ihr die drei Ordner aus der zip-Datei ("Adafruit_CC3000", "Barometer_Sensor", "EthernetV2_0" und "Humidity_Temperature_Sensor") kopiert.
+Dazu öffnet ihr das *Arduino* Installationsverzeichnis (bei Windows in der Regel unter C:/Programme/Arduino zu finden). Dort befindet sich das Verzeichnis "libraries", in welches ihr die drei Ordner aus der zip-Datei ("Adafruit_CC3000", "Barometer_Sensor", "Digital_Light_Sensor", "EthernetV2_0" und "Humidity_Temperature_Sensor") kopiert.
 
 |<img src="images/move_files.png" width="800"/>|
 |:-------:|
