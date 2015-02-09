@@ -99,7 +99,7 @@ Falls euch dort kein COM-Port zur Auswahl vorgeschlagen wird, lest bitte den [en
 ### 3.3 Registrierung auf der OpenSenseMap
 
 Ein Software-Programm für einen *Arduino Mikrokontroller* nennt man auch Sketch. Seit der *Arduino IDE Version 1.0* werden alle Sketch-Dateien ausschließlich durch die Dateiendung ".ino" gekennzeichnet. Eine solche ino-Datei benötigt ihr nun, um eure Station zu programmieren. Den passenden Sketch zu der SenseBox Umweltstation bekommt ihr, wenn ihr eure Station bei uns auf der OpenSenseMap registriert.
-Wählt dazu auf [OpenSenseMap](http://www.opensensemap.org/) die Option "Registrierung" aus. Folgt dort den 5 Schritten zur Registrierung. 
+Wählt dazu auf <a href="http://opensensemap.org" target="_blank">OpenSenseMap</a> die Option "Registrierung" aus. Folgt dort den 5 Schritten zur Registrierung. 
 
 *Wichtig*: Der Standort eurer Station sollte möglichst genau angegeben werden, damit die Messdaten räumlich korrekt zugeordnet werden können.
 
