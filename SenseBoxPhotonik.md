@@ -202,21 +202,3 @@ Thermometer sollte..
 
 Lichtsensor sollte..
 * ..nicht in einem undurchsichtigen Gehäuse untergebracht sein
-
-Mikrofon sollte..
-* ..nicht in einem komplett geschlossenen Gehäuse untergebracht sein
-
-### 4.3 Exemplarischer Aufbau
-
-Wie bereit erwähnt, muss vor allem das Gehäuse mit der Basisstation Regen- und Spritzwasser abhalten, damit kein Kurzschluss entstehen und die Station nicht beschädigt wird. Dazu wird die Basisstation (siehe folgende Abbildung) mit Heißkleber in ein IP55 Gehäuse geklebt. In dem selben Gehäuse sollte der Drucksensor untergebracht werden, der am besten unter konstanten Temperaturbedingungen arbeitet, was durch die Eigenwärme des Arduino gewährleistet wird.
-
-Die analogen Sensoren (Schall, Temperatur & Luftfeuchte) sollten separat in einem durchlüfteten Gehäuse angebracht werden, für das folgendes gelten muss:
-
-* Regenabweisend und nach oben hin geschlossen 
-* Luftdurchlässig durch Belüftungslöcher o. Ä.
-
-*Wichtig*: Die Kabel aller Sensoren, Netzwerk- und Stromkabel müssen nach unten aus dem Gehäuse geleitet werden! Außerdem muss der Stromanschluss unbedingt wasserfest angebracht werden!
-
-|<img src="images/aufbau.png" width="800"/>|
-|:-------:|
-|**Exemplarischer Stationsaufbau**|
