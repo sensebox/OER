@@ -63,7 +63,7 @@ Steckt nun das *Ethernet Shield* bzw. das  *WiFi Shield* auf das *Seeed Studio B
 
 ### 2.3 Station mit dem Netzwerk verbinden (nur für Ethernet-Version)
 
-*Beim Aufbau der WiFi-Version kann dieser Punkt übersprungen werden*
+**Beim Aufbau der WiFi-Version kann dieser Punkt übersprungen werden**
 
 Bevor der Code hochgeladen wird, solltet ihr die Messstation durch ein Netzwerkkabel mit eurem Heimnetzwerk verbinden. Die Station ist darauf ausgerichtet, dass das angeschlossene Netzwerk DHCP unterstützt. Falls das nicht der Fall sein sollte, solltet ihr eine feste IP (entsprechend der Netzwerkeinstellungen) in dieser Zeile der ino-Datei einstellen:
 
@@ -126,7 +126,7 @@ Im Folgenden stehen ein paar Hinweise zu den 5 Schritten der Registrierung.
     * Gebt im ersten Pflichtfeld einen Stationsnamen ein und legt im zweiten Pflichtfeld fest ob sich die Station später drinnen oder draußen befinden soll
     * Optinal könnt Ihr noch ein Gruppenzeichen angeben. Wenn ihr nach 'Gruppenkennzeichen' sucht, könnt Ihr dann alle Stationen in Eurem eigenen Netzwerk anzeigen lassen
   3. Standort
-    *Ihr könnt einen Standort direkt über die Karte auswählen oder auch nach einer Adresse suchen (über das Symbol mit der Lupe, links oben im Kartenfenster)
+    * Ihr könnt einen Standort direkt über die Karte auswählen oder auch nach einer Adresse suchen (über das Symbol mit der Lupe, links oben im Kartenfenster)
   4. Hardware Setup
     * SenseBox Photonik auswählen und dabei angeben ob Ihr die WiFi- oder Ethernet-Version erhalten habt
   5. Download
@@ -140,7 +140,7 @@ Nach erfolgreicher Registrierung wird euch von uns eine ino-Datei zu der angegeb
 
 ### 3.5 WiFi Einstellungen (WiFi-Version)
 
-** Kapitel 3.5 ist nur für die WiFi Version gültig **
+**Kapitel 3.5 ist nur für die WiFi Version gültig**
 
 Um die Station mit eurem WLAN-Zugangspunkt zu verbinden braucht ihr eure Netzwerkkennung (SSID) und das zugehörige Passwort. Eure SSID und euer Passwort müsst ihr einmal in der ino-Datei angeben. Dazu öffnet die Datei und passt die folgenden Zeilen an:
 
