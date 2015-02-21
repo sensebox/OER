@@ -117,7 +117,7 @@ Falls euch dort kein COM-Port zur Auswahl vorgeschlagen wird, lest bitte den [en
 
 ### 3.3 Registrierung auf der OpenSenseMap
 
-Ruft auf der [OpenSenseMap](www.opensensemap.org) die Registrierung auf und legt dort eine neue SenseBox Photonik an.
+Ruft auf der [OpenSenseMap](http://www.opensensemap.org) die Registrierung auf und legt dort eine neue SenseBox Photonik an.
 Im Folgenden stehen ein paar Hinweise zu den 5 Schritten der Registrierung.
 
   1. User Anlegen
