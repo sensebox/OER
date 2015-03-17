@@ -4,6 +4,6 @@ In diesem Repository findet ihr alle Anleitungen zu den Standardvarianten der Se
 
 ## SenseBox Umweltstation
 
-<span style="color:red;">Die</span> genaue Anleitung zur **SenseBox Home** Umweltstation findet ihr [hier](SenseBoxHome.md).
+<span style="color:red;">Die</span> genaue Anleitung zur **SenseBox Home (Version 2014)** Umweltstation findet ihr [hier](SenseBoxHome.md).
 
-<span style="color:red;">Die</span> genaue Anleitung zur **SenseBox Photonik** Umweltstation findet ihr [hier](SenseBoxPhotonik.md).
+<span style="color:red;">Die</span> genaue Anleitung zur **SenseBox Photonik / SenseBox Home (Version 2015)** Umweltstation findet ihr [hier](SenseBoxPhotonik.md).
