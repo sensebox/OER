@@ -8,7 +8,7 @@ Viel Spaß mit eurer neuen Messstation wünscht euch das SenseBox-Team!
 
 Die unten aufgeführte Hardware wird benötigt, um die Umweltstation anhand dieser Anleitung zusammen zu bauen.
 
-### 1.1 Basiskomponenten der SenseBox Home
+### 1.1 Basiskomponenten
 
 |<img src="images/uno_top.png" width="250"/>|<img src="images/Base_Shield_v2.png" width="250"/>|<img src="images/adafruit-wifi-shield.jpg" width="250"/>|
 |:------:|:------:|:------:|
