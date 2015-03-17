@@ -42,7 +42,7 @@ Durch das Stecksystem dauert der Aufbau eurer Station nur wenige Minuten. Vorweg
 
 ### 2.2 Basisstation aufbauen
 
-Der Kern unserer Station besteht aus drei Komponenten: dem *Arduino Uno* Mikrokontroller, dem *Seeed Studio Base Shield* und dem *Ethernet Shield bzw. WiFi Shield*.
+Der Kern unserer Station besteht aus drei Komponenten: dem *Arduino Uno* Mikrokontroller, dem *Seeed Studio Base Shield* und dem *Adafruit WiFi Shield*.
 
 Steckt als erstes das *Base Shield* auf das *Arduino Uno*. Daran werden die Sensoren wie folgt angeschlossen:
 
@@ -51,7 +51,7 @@ Steckt als erstes das *Base Shield* auf das *Arduino Uno*. Daran werden die Sens
 * I2C: Digitaler Lichtsensor 
 * I2C: Barometer
 
-Steckt nun das *Ethernet Shield* bzw. das  *WiFi Shield* auf das *Seeed Studio Base Shield* mit den Sensoren. Es erweitert die Station mit der Möglichkeit eine Internetverbindung aufzubauen und als Webclient mit dem OpenSenseMap Server zu kommunizieren.
+Steckt nun das *WiFi Shield* auf das *Seeed Studio Base Shield* mit den Sensoren. Es erweitert die Station mit der Möglichkeit eine Internetverbindung aufzubauen und als Webclient mit dem OpenSenseMap Server zu kommunizieren.
 
 *Wichtig*: Achtet beim Stapeln der Schields darauf, dass alle Anschlüsse und Steckerleisten korrekt gesteckt sind und keine Kabel beschädigt werden!
 
