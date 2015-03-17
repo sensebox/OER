@@ -1,6 +1,6 @@
-# SenseBox Photonik - Bauanleitung
+# SenseBox Photonik / SenseBox Home 2015 - Bauanleitung
 
-In dieser Anleitung wird schrittweise beschrieben, wie die SenseBox Photonik zusammengebaut und programmiert wird. Außderdem wird erläutert, wie die Station aufgestellt und angeschlossen werden sollte, damit die Datenübertragung auf die OpeneSenseMap reibungslos funktioniert. 
+In dieser Anleitung wird schrittweise beschrieben, wie die SenseBox zusammengebaut und programmiert wird. Außderdem wird erläutert, wie die Station aufgestellt und angeschlossen werden sollte, damit die Datenübertragung auf die OpeneSenseMap reibungslos funktioniert. Diese Anleitung gilt seit diesem Jahr sowohl für die SenseBox Photonik als auch für die SenseBox Home.
 
 Viel Spaß mit eurer neuen Messstation wünscht euch das SenseBox-Team!
 
@@ -188,7 +188,7 @@ Damit die Messdaten für die Forschung, aber auch für Bürger interessant werde
 
 ### 4.2 Wasserfestes Gehäuse
 
-Der Hauptteil der SenseBox Photonik (*Arduino Uno, Ethernet Shield/WiFi Shield* und *Seeed Studio Base Shield*) muss unter allen Umständen wasserdicht eingeschlossen werden. Daher sollte der Basisteil der Station in einem Gehäuse der Schutzart *IP55* untergebracht werden. Solche Gehäuse sind in jedem Baumarkt oder im Internet erhältlich.
+Der Hauptteil der SenseBox Photonik / SenseBox Home 2015 (*Arduino Uno, Ethernet Shield/WiFi Shield* und *Seeed Studio Base Shield*) muss unter allen Umständen wasserdicht eingeschlossen werden. Daher sollte der Basisteil der Station in einem Gehäuse der Schutzart *IP55* untergebracht werden. Solche Gehäuse sind in jedem Baumarkt oder im Internet erhältlich.
 Für die einzelnen Sensoren ist weiterhin folgendes zu beachten:
 
 Barometer sollte..
