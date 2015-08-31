@@ -12,6 +12,6 @@ In diesem Repository findet ihr alle Anleitungen zu den Standardvarianten der Se
 
 ## Registrierung auf der OpenSenseMap
 
-Für die Registrierung einer der oben aufgeführten Stationen, folgt einfach der Schritt für Schritt Registrierung auf der OpenSenseMap. 
+Für die Registrierung einer der oben aufgeführten Stationen folgt einfach der Schritt für Schritt Registrierung auf der OpenSenseMap. 
 
 Falls ihr eine Messstation mit eigenem Sensorsetup registrieren wollt, folgt unserem [Tutorial](OSeMRegistration.md).
