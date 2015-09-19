@@ -10,24 +10,24 @@ Die unten aufgeführte Hardware wird benötigt, um die Umweltstation anhand dies
 
 ### 1.1 Basiskomponenten
 
-|<img src="images/uno_top.png" width="250"/>|<img src="images/Base_Shield_v2.png" width="250"/>|<img src="images/adafruit-wifi-shield.jpg" width="250"/>|
+|<img src="../images/uno_top.png" width="250"/>|<img src="../images/Base_Shield_v2.png" width="250"/>|<img src="../images/adafruit-wifi-shield.jpg" width="250"/>|
 |:------:|:------:|:------:|
 |**Arduino Uno R3**|**Seeed Studio - Base Shield V2**|**CC3000 WiFi Shield**|
 
 ### 1.2 Sensoren
 
-|![Grove Barometer - Sensor BMP085](images/pressure_bmp085.png "Grove Barometer - Sensor BMP085")|<img src="http://g01.s.alicdn.com/kf/HT1DC5xFGNXXXagOFbXn/221117824/HT1DC5xFGNXXXagOFbXn.jpg" width="170"/>|
+|![Grove Barometer - Sensor BMP085](../images/pressure_bmp085.png "Grove Barometer - Sensor BMP085")|<img src="http://g01.s.alicdn.com/kf/HT1DC5xFGNXXXagOFbXn/221117824/HT1DC5xFGNXXXagOFbXn.jpg" width="170"/>|
 |:--------:|:--------:|
 |**Grove Barometer - Sensor BMP085**|**Grove Temperatur/Luftfeuchtigkeit - Sensor DHT22**|
-|<img src="images/UV_Sensor_01.jpg" width="170"/> |<img src="images/Digital_Light_Sensor.jpg" width="170"/>|
+|<img src="../images/UV_Sensor_01.jpg" width="170"/> |<img src="../images/Digital_Light_Sensor.jpg" width="170"/>|
 |**Grove UV - Sensor GUVA-S12D**|**Grove Digital Light Sensor - Sensor TSL2561**|
 
 ### 1.3 Zubehör
 
-|<img src="images/power_supply.png" width="250"/>|<img src="images/grove_cable.png" width="250"/>|
+|<img src="../images/power_supply.png" width="250"/>|<img src="../images/grove_cable.png" width="250"/>|
 |:---------:|:---------:|
 |**Netzteil (9V, 0.6A)**|**Universal 4-Pin Kabel für Grove Sensoren**|
-|![USB-Kabel (Typ A/B)](images/usb_cable.png "USB-Kabel (Typ A/B)")||
+|![USB-Kabel (Typ A/B)](../images/usb_cable.png "USB-Kabel (Typ A/B)")||
 |**USB-Kabel (Typ A/B)**||
 
 ## 2. Aufbau
@@ -89,13 +89,13 @@ Nachdem ihr die Bibliotheken installiert habt, könnt ihr mit dem USB-Kabel die 
 
 Dort müsst ihr unter dem Reiter "Tools" -> "Board" das richtige *Arduino Board* auswählen. In unserem Fall also "Arduino Uno".
 
-|<img src="images/choose_board.png" width="600"/>|
+|<img src="../images/choose_board.png" width="600"/>|
 |:-------:|
 |**Arduino Board auswählen**|
 
 Außerdem müsst ihr einen seriellen Port angeben, über den die Kommunikation zwischen Computer und Mikrokontroller läuft. Wählt dazu unter "Tools" -> "Serieller Port" den COM-Port aus, der von dem Treiber beim Anschließen des Arduino Uno geladen werden sollte.
 
-|<img src="images/choose_port.png" width="600"/>|
+|<img src="../images/choose_port.png" width="600"/>|
 |:-------:|
 |**COM-Port auswählen**|
 
