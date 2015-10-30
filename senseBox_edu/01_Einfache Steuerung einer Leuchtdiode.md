@@ -21,5 +21,10 @@ void setup(){
     //Anweisungen
   }
 ```
+Die setup-Funktion wird nur einmal beim Start des Programmes ausgeführt. In der loop-Funktion werden hingegen alle Anweisungen fortlaufend in einer endlosen Schleife wiederholt. Beide Funktionen sind zwingend notwendig um das Programm erfolgreich kompilieren und ausführen zu können.
+Mit einem doppelten Schrägstrich „//“ lassen sich Kommentare zum Programmcode hinzufügen. Es ist immer wichtig seinen Programmcode zu kommentieren, damit auch andere nachvollziehen können, was an einer bestimmten Stelle passiert.
+
+Beginnen wir mit einem Sketch, um eine LED zum Leuchten zu bringen:
+
 
 
