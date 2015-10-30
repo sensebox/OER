@@ -1,4 +1,7 @@
-#**Station 2 - Messung digitale Signale**
+<img src="https://github.com/sensebox/OER/blob/master/senseBox_edu/images/sensebox_logo_neu.png" width="200"/> **Dokumentation**
+***
+
+#**Station 2 - Messung digitaler Signale**
 
 ##**Ziel der Station**
 In dieser Station wirst du lernen, wie man einen digitalen Sensor ausliest und die eintreffenden Daten in einer Variable speichert und anzeigen lässt. Zu guter Letzt wirst du eine wichtige Kontrollstruktur kennenlernen: die if-else-Bedingung.
@@ -41,7 +44,7 @@ TestVariable = digitalRead (2);
 ```
 digitalRead überprüft den aktuellen Status des Ports. Auch hier können wieder die Zustände HIGH (es fließt Strom) oder LOW (es fließt kein Strom) eintreten. Wichtig: Ist der Port nicht belegt, wird einer der beiden Zustände zufällig ausgegeben.  
 ##**Aufbau**
-![Aufbau Station 3](images/aufbau_station_2.png "Aufbau Station 2")
+![Aufbau Station 3](https://github.com/sensebox/OER/blob/master/senseBox_edu/images/aufbau_station_2.png "Aufbau Station 2")
 ##**Aufgabe 1**
 Lass Dir die folgenden Sätze im seriellen Monitor anzeigen:
 
@@ -57,3 +60,5 @@ Tipp: Die boolean Variable lässt sich analog zu HIGH oder LOW:
 ```
 digitalWrite (LED, boolean Variable)
 ```
+
+
