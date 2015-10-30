@@ -4,12 +4,12 @@ Die SenseBox:edu ist ein Werkzeugkasten, der Schülerinnen und Schülern sowie N
 
 ##Inhalt der Kiste
 
-<img src="images/Kisteninhalt.png"/>
+<img src="https://github.com/sensebox/OER/blob/master/senseBox_edu/images/Kisteninhalt.png/"/>
 
 1. Basisstation
 Die Grundlage für unsere Experimente bildet die Basisstation. Sie besteht aus einem Arduino Uno Mikrokontroller, dem senseBox Shield und einem Steckbrett. Letzteres besteht aus jeweils zwei vertikalen Reihen für die Plus- und Minusanschlüsse sowie zweimal 30 horizontalen Reihen mit je fünf Bohrungen, die mit a bis e bzw. f bis j beschriftet sind. Die Plus- und Minusanschlüsse sowie die fünf horizontalen Bohrungen einer Reihe sind, wie unten dargestellt, leitend miteinander verbunden.
 
-<center><img src="images/Breadboard.png" width="300"></center>
+<center><img src="https://github.com/sensebox/OER/blob/master/senseBox_edu/images/Breadboard.png" width="300"></center>
 
 Das senseBox Shield ist eine Erweiterungsplatine für den Mikrokontroller, und wird einfach auf ihn drauf gesteckt (daher die Bezeichnung Shield). Es bietet die Möglichkeit Messungen auf einer microSD Karte abzuspeichern und zukünftige Upgrades mit den Steckverbindungen auf der Oberseite freizuschalten. Des Weiteren ist in der Platine eine Uhr eingebaut (Abkürzung RTC, engl. für Real-Time Clock), die aktiviert wird, sobald die Batterie aus dem Kleinteileset eingebaut wurde.
 
