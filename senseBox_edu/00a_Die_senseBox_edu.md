@@ -1,5 +1,4 @@
-<img src="https://github.com/sensebox/OER/blob/master/senseBox_edu/images/sensebox_logo_neu.png" width="200"/> **Dokumentation**
-***
+<img src="https://github.com/sensebox/OER/blob/master/senseBox_edu/images/sensebox_logo_neu.png" width="200"/>
 
 #Die senseBox:edu
 
