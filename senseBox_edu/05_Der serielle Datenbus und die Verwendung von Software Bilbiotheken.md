@@ -7,7 +7,7 @@ Damit wir täglich den Wetterbericht im Internet, im Fernsehen, in der Zeitung o
 In dieser Station beschäftigst du dich mit einem Umweltsensor, mit dem Temperatur und Luftfeuchtigkeit gemessen werden kann. Wir lernen dabei die Verwendung von Softwarebibliotheken und die Kommunikation über den seriellen Datenbus kennen.
 
 ##Materialien
-*Kombinierter Temperatur- und Luftfeuchtigkeitsensor
+* Kombinierter Temperatur- und Luftfeuchtigkeitsensor
 
 ##Grundlagen
 Der HDC1008 aus der Serie HDX100X von Texas Instruments ist ein kombinierter Temperatur- und Luftfeuchtigkeitssensor. Detaillierte Informationen über einen Sensor findet man im entsprechenden Datenblatt des Herstellers. Sich ein solches Datenblatt genauer anzuschauen, ist im Voraus immer eine gute Idee, um mehr über Auflösung der Messwerte, Betriebsbedingungen oder Anwendungsbeispiele zu erfahren.

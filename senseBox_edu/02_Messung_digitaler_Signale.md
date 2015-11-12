@@ -6,8 +6,8 @@
 In dieser Station wirst du lernen, wie man einen digitalen Sensor ausliest und die eintreffenden Daten in einer Variable speichert und anzeigen lässt. Zu guter Letzt wirst du eine wichtige Kontrollstruktur kennenlernen: die if-else-Bedingung.
 
 ##Materialien
-*Knöpfchen
-*10 kΩ Widerstand (orange)
+* Knöpfchen
+* 10 kΩ Widerstand (orange)
 
 ##Grundlagen
 Um Dir Informationen aus deinem Programm (z.B. den Wert einer Variable) anzeigen zu lassen, verwendest du den Seriellen Monitor.
