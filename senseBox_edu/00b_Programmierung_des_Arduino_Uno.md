@@ -8,7 +8,7 @@ Lade als erstes die aktuelle Arduino Software  für Dein Betriebssystem herunter
 
 Starte nun die Arduino Entwicklungsumgebung (kurz Arduino IDE). Sind die Treiber korrekt installiert worden, kannst du nun unter dem Reiter "Tools" -> "Board" das richtige Arduino Board auswählen. Bei der SenseBox arbeitest du mit dem "Arduino Uno". 
 
-<image src="https://github.com/sensebox/OER/blob/master/senseBox_edu/images/Auswahlen_Arduino.png"/>
+<image src="https://github.com/sensebox/OER/blob/master/senseBox_edu/images/Auswaehlen_Arduino.png"/>
 
 Als nächstes musst du einen seriellen Port auswählen, über den die Kommunikation zwischen Computer und Mikrokontroller läuft. Wähle dazu unter "Tools" -> "Serieller Port" den Anschluss aus, der von dem Treiber beim Anschließen des Arduino Uno geladen wurde.  
 Sollten Probleme bei der Installation der Treiber auftauchen, z.B. weil das Arduino Uno von einem älteren Betriebssystem nicht erkannt wurde, kannst du hier Anleitungen für andere Betriebssysteme (z.B. Windows XP, Vista, 7) finden.

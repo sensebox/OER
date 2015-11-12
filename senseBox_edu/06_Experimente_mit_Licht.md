@@ -20,7 +20,7 @@ Laut dem Datenblatt,  hat dieser Sensor eine Reichweite von 2 bis 200.000 Lux, 
 
 ##Aufbau
 
-<image src="https://github.com/sensebox/OER/blob/master/senseBox_edu/images/Aufbau_Station_6.png"/>
+<image src="https://github.com/sensebox/OER/blob/master/senseBox_edu/images/Aufbau_station_6.png"/>
 
 ##Grundlagen
 Zur manuellen Programmierung benutzt du dieses Mal nur die Wire Bibliothek. Am Anfang brauchst du ein paar Konstanten, die mit der Direktive #define definiert werden. Anders als bei Variablen, belegen sie einen festen Platz im Speicher, der sich nur auslesen, aber nicht beschreiben lässt. In unserem Falle soll die Busadresse, sowie die folgenden Registeradressen des Sensors gespeichert werden. 

@@ -36,7 +36,7 @@ void setup() {
 void loop() {
   digitalWrite(13, HIGH); // Schalte die LED an
 }
-´´´
+```
 Vor der setup-Funktion kann mit dem Befehl int led = 13 dem Port 13, an dem die LED angeschlossen ist, ein Name gegeben. Indem man dem Port einen Namen gibt, kann er im Verlauf des Sketches immer wieder angesprochen werden ohne die Nummer des Ports wiederholen zu müssen. So werden spätere Änderungen an der Schaltung erleichtert, da man an nur einer Stelle im Sketch den Port ändern muss.
 In der setup-Funktion wird mit dem Befehl pinMode(led, OUTPUT) der Port der LED als Output, also Ausgang, definiert. Ohne diesen Befehl leuchtet die LED nicht, da kein Strom an den Port geschickt wird. Im letzten Schritt der Programmierung wird in der loop-Funktion die LED schließlich angeschaltet. Dazu benutzt man den Befehl digitalWrite(led, HIGH).
 
@@ -57,7 +57,6 @@ Um eine LED auszuschalten, benötigst du den Befehl  digitalWrite(LED, LOW);*
 ##Aufgabe 3
 Wir wollen nun den Verkehr in einer Stadt steuern. Baue dazu eine Verkehrsampel! Nutze hierfür die anderen LEDs, Widerstände und weitere digitale Anschlüsse.
 
-***WICHTIG:*** *Es muss immer ein Widerstand (470 Ohm, blau) vor eine LED geschaltet werden! 
-*
+***WICHTIG:*** *Es muss immer ein Widerstand (470 Ohm, blau) vor eine LED geschaltet werden!*
 
 

@@ -11,7 +11,7 @@ In dieser Station wirst du lernen einen analogen Sensor auszulesen und die Messw
 * LDR
 * 10 kΩ Widerstand
 
-## Grundlage
+## Grundlagen
 Der Photowiderstand (Abkürzung LDR, engl. für Light Dependent Resistor) ist ein analoger, lichtabhängiger Widerstand, der eine einfache Möglichkeit bietet die Helligkeit zu messen. Ist der Lichteinfall hoch, sinkt der Widerstandswert, ist er gering, steigt er. 
 In Abhängigkeit von den Lichtverhältnissen ändert sich der Widerstandswert des LDR und die Spannung fällt ab. Um diese Veränderung zu messen, benötigen wir den zweiten konstanten Widerstand zum Vergleich.
 
@@ -35,7 +35,7 @@ if (Sensorwert < 100){
 else {
  //Block mit Anweisungen für falsch
 }
-``
+```
 
 ##Aufgabe 2
 Baue jetzt eine intelligente Straßenbeleuchtung. Erweitere hierfür die Schaltung um eine LED und schreibe einen Sketch, der diese bei einer bestimmen Helligkeit aufleuchten lässt. 
