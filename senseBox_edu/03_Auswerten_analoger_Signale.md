@@ -29,14 +29,14 @@ Baue die abgebildete Schaltung nach und benutze die Befehle analogRead( ) und Se
 
 ##Grundlagen
 Eine wichtige Kontrollstruktur beim Programmieren sind if-else-Bedingungen. Eine if-Abfrage prüft ob eine Bedingung wahr ist. Wenn sie wahr ist, wird der darauffolgende Block mit Anweisungen ausgeführt, ist sie falsch wird er übersprungen oder man definiert einen alternativen else-Block mit Anweisungen.
-'''
+```
 if (Sensorwert < 100){
  //Block mit Anweisungen für wahr
 }
 else {
  //Block mit Anweisungen für falsch
 }
-'''
+``
 
 ##Aufgabe 2
 Baue jetzt eine intelligente Straßenbeleuchtung. Erweitere hierfür die Schaltung um eine LED und schreibe einen Sketch, der diese bei einer bestimmen Helligkeit aufleuchten lässt. 
