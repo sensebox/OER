@@ -1,3 +1,6 @@
+<img src="https://github.com/sensebox/OER/blob/master/senseBox_edu/images/sensebox_logo_neu.png" width="200"/> **Dokumentation**
+***
+
 # Station 3 - Auswerten analoger Signale
 
 Straßenlaternen gehen in Städten immer zu bestimmten Uhrzeiten an und aus. Um Strom zu sparen, könnte man je nach Helligkeit die Laternen automatisch an- und ausschalten. 

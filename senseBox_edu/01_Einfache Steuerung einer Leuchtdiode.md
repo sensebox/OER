@@ -1,3 +1,6 @@
+<img src="https://github.com/sensebox/OER/blob/master/senseBox_edu/images/sensebox_logo_neu.png" width="200"/> **Dokumentation**
+***
+
 # Station 1 - Einfache Steuerung einer Leuchtdiode
 
 Lichtsignale umgeben uns in unserem Alltag. Vor allem im Straßenverkehr blinkt und leuchtet es ständig. Aber wie funktioniert z.B. eine Ampel?
