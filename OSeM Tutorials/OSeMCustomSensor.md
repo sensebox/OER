@@ -33,7 +33,7 @@ float humi = sht1x.readHumidity();
 ### Manuelle Registrierung
 Um einen Sensor mit der OSeM zu verbinden, müsst ihr ihn [zuerst dort registrieren](http://opensensemap.org/#/register). Falls ihr dabei keinen der SenseBox Bausätze nutzt, müsst ihr in Schritt 4 der Registrierung die manuelle Konfiguration auswählen. Wie unten in der Abbildung dargestellt, wird dort für jedes gemessene Phänomen ein neuer Sensor angelegt:
 
-![](https://github.com/sensebox/OER/blob/master/OSeM%20Tutorial/images/registration_step4.png)
+![](https://github.com/sensebox/OER/blob/master/OSeM%20Tutorials/images/registration_step4.png)
 
 ### OpenSenseMap API
 Eine REST Schnittstelle regelt den Zugang zur Datenbank auf dem OSeM Server. Intern ist jede Messstation mit ihren Sensoren (bzw. Phänomenen) verknüpft, die bei der Registrierung angegeben wurden. In unserem Falle haben wir eine SenseBox ID für die Station, sowie jeweils eine Sensor ID für Temperatur- und Luftfeuchtigkeitsmessungen bei der Registrierung generiert. Die IDs werden euch nach der Registrierung per Mail zugeschickt. Jede Messung wird dann über das HTTP Protokoll mit der POST Operation an den Server gesendet. Dazu muss eine eindeutige URI angegeben werden die wie folgt aufgebaut aufgebaut ist:
