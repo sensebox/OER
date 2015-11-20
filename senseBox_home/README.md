@@ -41,13 +41,13 @@ Hier wird in nur wenigen Schritten eure Messstation zusammengebaut.
 ####1.1 Sensoren Anschließen
 In Fach B der SenseBox befinden sich die vier kleinen Platinen mit den Sensoren. Die eigentlichen Sensoren sind nur wenige Millimeter groß und befinden sich auf der Oberseite der Platinen. Um einer Beschädigung vorzubeugen, solltet ihr die kleinen Sensoren nicht berühren, sondern die Platinen am Rand anfassen. Der Anschluss der Sensoren ist denkbar einfach: Benutzt die Verbindungskabel, um die Sensoren mit den mittleren Steckplätzen auf der Basisstation zu verbinden. Welchen Anschluss ihr dabei nutzt spielt keine Rolle.
 
-<image src="https://github.com/sensebox/OER/blob/master/senseBox_home/images/02_connections.png"/>
+<image src="https://github.com/sensebox/OER/blob/master/senseBox_home/images/02_connection.png"/>
 
 Das Netzteil braucht ihr erst später, um die Station draußen aufzubauen.
 
 
 #### 1.3 Zusätzliches Zubehör
-Um die SenseBox draußen aufzubauen, braucht ihr noch ein ausreichend langes Netzwerkkabel, sowie ein Gehäuse. Bei dem Gehäuse müsst ihr darauf achten, dass es einen transparenten Deckel ohne Filterwirkung hat, damit sinnvolle Lichtmessungen gemacht werden können. Zusätzliche Kosten für ein Gehäuse belaufen sich 20 bis 30 Euro. Der Einbau der SenseBox in ein Gehäuse wird nicht in dieser Anleitung thematisiert, zusätzliche Tutorials dafür findet ihr aber auf unserer Homepage **FUßNOTE**.
+Um die SenseBox draußen aufzubauen, braucht ihr noch ein ausreichend langes Netzwerkkabel, sowie ein Gehäuse. Bei dem Gehäuse müsst ihr darauf achten, dass es einen transparenten Deckel ohne Filterwirkung hat, damit sinnvolle Lichtmessungen gemacht werden können. Zusätzliche Kosten für ein Gehäuse belaufen sich 20 bis 30 Euro. Der Einbau der SenseBox in ein Gehäuse wird nicht in dieser Anleitung thematisiert, zusätzliche Tutorials dafür findet ihr aber auf unserer Homepage.
 
 ---
 
