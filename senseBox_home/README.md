@@ -11,7 +11,7 @@ senseBox Home -- Bauanleitung
 ###0. Inhalt der SenseBox
 Bevor es los geht, solltet ihr unbedingt überprüfen, 0b alle Bauteile vorhanden sind. Unterhalb findet ihr dazu eine Inventarliste.
 
-#### <i class="icon-folder-open"></i> Bild mit Inhalt der Box
+<image src="https://github.com/sensebox/OER/blob/master/senseBox_home/images/01_contents.png"/>
 
 **A. Basisstation bestehend aus drei Platinen:**
 
@@ -41,10 +41,9 @@ Hier wird in nur wenigen Schritten eure Messstation zusammengebaut.
 ####1.1 Sensoren Anschließen
 In Fach B der SenseBox befinden sich die vier kleinen Platinen mit den Sensoren. Die eigentlichen Sensoren sind nur wenige Millimeter groß und befinden sich auf der Oberseite der Platinen. Um einer Beschädigung vorzubeugen, solltet ihr die kleinen Sensoren nicht berühren, sondern die Platinen am Rand anfassen. Der Anschluss der Sensoren ist denkbar einfach: Benutzt die Verbindungskabel, um die Sensoren mit den mittleren Steckplätzen auf der Basisstation zu verbinden. Welchen Anschluss ihr dabei nutzt spielt keine Rolle.
 
-#### <i class="icon-folder-open"></i> Bild mit Anschlüssen
+<image src="https://github.com/sensebox/OER/blob/master/senseBox_home/images/02_connections.png"/>
 
 Das Netzteil braucht ihr erst später, um die Station draußen aufzubauen.
-
 
 
 #### 1.3 Zusätzliches Zubehör
@@ -62,11 +61,11 @@ Das Mainboard der SenseBox ist eine modifizierte Version des Arduino Uno Mikroco
 
 [www.arduino.cc/en/main/software](https://www.arduino.cc/en/main/software)
 
-#### <i class="icon-folder-open"></i> Arduino DL Bild
+<image src="https://github.com/sensebox/OER/blob/master/senseBox_home/images/03_arduino-dl.png"/>
 
 Arduino ist ein Open Source Projekt und wird durch Spenden mit finanziert. Daher werdet ihr vor dem Download nach einer Spende gefragt, das könnt ihr überspringen indem ihr auf „Just Download“ klickt.
 
-#### <i class="icon-folder-open"></i> Arduino Donate Bild
+<image src="https://github.com/sensebox/OER/blob/master/senseBox_home/images/04_donate.png"/>
 
 Legt auf eurer Festplatte einen neuen Ordner an und entpackt darin die Zip-Datei.
 
@@ -75,29 +74,29 @@ Um die Sensoren und die Netzwerkkarte nutzen zu können, müssen noch ein paar E
 
 [github.com/sensebox/home](https://github.com/sensebox/home)
 
-#### <i class="icon-folder-open"></i> Github Download button
+<image src="https://github.com/sensebox/OER/blob/master/senseBox_home/images/05_git-dl.png"/>
 
 Integriert nun die beiden Ordner „examples“ und „libraries“ aus dem „home-master“ Verzeichnis in der „home-master.zip“ Datei in den Arduino Ordner. Wenn ihr gefragt werdet ob bestehende Dateien ersetz werden sollen, folgt den Anweisungen unten auf der Seite.
 
-#### <i class="icon-folder-open"></i> Copy Paste Bild
+<image src="https://github.com/sensebox/OER/blob/master/senseBox_home/images/06_copy.png"/>
 
 Setzt im folgenden Dialogfeld den Haken unten und bestätigt mit „Ja“. Daraufhin öffnet sich ein neues Fenster, in dem ihr wieder den Haken setzt, und „Kopieren und ersetzen“ auswählt.
 
-#### <i class="icon-folder-open"></i> Kopieren und ersetzen Dialog
+<image src="https://github.com/sensebox/OER/blob/master/senseBox_home/images/07_replace.png"/>
 
 ####2.3 Treiber Installieren
 Ladet zum Schluss noch einen aktuellen FTDI Treiber für euer Betriebssystem runter und installiert ihn. Den passenden Treiber findet ihr in einer Tabelle weiter unten auf der Seite:
 [www.ftdichip.com/Drivers/VCP.htm](http://www.ftdichip.com/Drivers/VCP.htm)
 
-#### <i class="icon-folder-open"></i> Treiber Download
+<image src="https://github.com/sensebox/OER/blob/master/senseBox_home/images/08_driver.png"/>
 
 Entpackt die Datei und installiert den Treiber mit einem Doppelklick auf „dpinst-x86.exe“. Falls ihr ein 64 Bit Betriebssystem nutzt, erscheint eine Meldung, woraufhin ihr die Anwendung „dpinst-amd64.exe“ ausführen müsst. Nachdem die Installation fertig ausgeführt wurde sollte folgender Dialog erscheinen:
 
-#### <i class="icon-folder-open"></i> Treiber Installation 1
+<image src="https://github.com/sensebox/OER/blob/master/senseBox_home/images/09_ready.png"/>
 
 Verbindet die SenseBox über das USB-Kabel mit eurem Computer. Wenn ihr die SenseBox zum ersten Mal mit dem Computer verbindet müsst ihr kurz warten, bis der Mikrocontroller von Windows erkannt wurde. Das kann unter Umständen ein paar Minuten dauern. Unten rechts in der Taskleiste wird dann eine entsprechende Meldung erscheinen:
 
-#### <i class="icon-folder-open"></i> Treiber Installation 2
+<image src="https://github.com/sensebox/OER/blob/master/senseBox_home/images/10_tray.png"/>
 
 ####2.4 Sensoren und Internetverbindung testen
 Weiter geht’s mit den folgenden Schritten:
@@ -116,7 +115,7 @@ Falls bei Schritt 3 mehrere Auswahlmöglichkeiten angezeigt werden, müsst ihr z
 Ihr könnt durch experimentieren überprüfen, ob Temperatur, Luftfeuchtigkeit oder
 Beleuchtungsstärke sich verändern. Der Luftdruck lässt sich nicht ohne weiteres beeinflussen. Er sollte grob, je nach Höhenlage und Wetterverhältnissen, zwischen 60.000 Pa und 100.000 Pa liegen. Die Intensität des UV-Lichts kann nur mit speziellen Lampen oder durch direkte Sonneneinstrahlung getestet werden. In einem geschlossen Raum sollte keine bzw. nur minimale UV-Strahlung gemessen werden können.
 
-#### <i class="icon-folder-open"></i> Serieller Monitor
+<image src="https://github.com/sensebox/OER/blob/master/senseBox_home/images/11_serial1.png"/>
 
 Nun wird noch die Internetverbindung getestet:
 
@@ -127,6 +126,8 @@ Nun wird noch die Internetverbindung getestet:
 - Den seriellen Monitor über das **Lupe** Icon starten
 
 Wenn die Verbindung klappt, bekommt ihr eine entsprechende Meldung im seriellen Monitor angezeigt.
+
+<image src="https://github.com/sensebox/OER/blob/master/senseBox_home/images/12_serial2.png"/>
 
 ---
 
