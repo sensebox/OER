@@ -13,8 +13,6 @@ In dieser Anleitung wird beispielhaft die Anbindung eines SHT15 Sensors in das O
 * SCK zu Pin 7
 * GND zu Arduino GND
 
-![](https://github.com/sensebox/OER/blob/master/OSeM%20Tutorials/images/fritzing.png)
-
 ### SHT1x Bibliothek
 Für Sensoren der SHT1x Serie von Sensirion gibt es bereits eine einfache Arduino-Schnittstelle. [Ladet die Bibliothek von Github herunter](https://github.com/practicalarduino/SHT1x) und entpackt sie in euren Arduino/libraries Ordner. Importiert die Bibliothek wie gehabt in eurem Arduino Sketch, und definiert zusätzlich den Daten- und Taktpin entsprechend der Verkabelung in Bild 1. Danach könnt ihr eine Verbindung zum Sensor herstellen:
 
