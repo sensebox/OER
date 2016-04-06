@@ -10,20 +10,20 @@ In dieser Station verwendest du einen Lichtsensor, um die Beleuchtungsstärke de
 * Lichtsensor
 
 ##Grundlagen
-Elektromagnetische Energie bewegt sich in Wellen durch den Raum. Ihr Spektrum reicht von sehr langen Radiowellen, bis hin zur sehr kurzwelligen Gammastrahlung. Das menschliche Auge kann dabei nur einen sehr kleinen Teil dieses Spektrums wahrnehmen: das sichtbare Licht. Unsere Sonne ist dabei die Quelle der Energie über das gesamte Spektrum hinweg. Die Atmosphäre der Erde schützt uns davor einem zu hohen Maß an Strahlung ausgesetzt zu werden, die für uns lebensgefährlich werden könnte.
+Elektromagnetische Energie bewegt sich in Wellen durch den Raum. Ihr Spektrum reicht von sehr langen Radiowellen bis hin zur sehr kurzwelligen Gammastrahlung. Das menschliche Auge kann dabei nur einen sehr kleinen Teil dieses Spektrums wahrnehmen: das sichtbare Licht. Unsere Sonne ist dabei die Quelle der Energie über das gesamte Spektrum hinweg. Die Atmosphäre der Erde schützt uns davor, einem zu hohen Maß an Strahlung ausgesetzt zu werden, die für uns lebensgefährlich werden könnte.
 
-Für uns ist die Intensität des sichtbaren Lichts besonders interessant. Um die sog. Beleuchtungsstärke des einfallenden Lichts im sichtbaren Teil des Spektrums zu messen, wird die Einheit Lux verwendet. Sie gibt das Verhältnis der Helligkeit in Lumen pro Quadratmeter an. Bei einem hellen Sonnentag beträgt sie in über 100.000 Lux, in einer Vollmondnacht hingegen nur etwa 1 Lux.
+Für uns ist die Intensität des sichtbaren Lichts besonders interessant. Um die sog. Beleuchtungsstärke des einfallenden Lichts im sichtbaren Teil des Spektrums zu messen, wird die Einheit Lux verwendet. Sie gibt das Verhältnis der Helligkeit in Lumen pro Quadratmeter an. Bei einem hellen Sonnentag beträgt sie über 100.000 Lux, in einer Vollmondnacht hingegen nur etwa 1 Lux.
 
 Für diese Messung benutzt du im Folgenden den I2C Sensor TSL45315 von AMS-TAOS. Im Datenblatt des Sensors sieht man, dass seine Empfindlichkeit auf den sichtbaren Teil des Lichtspektrums angeglichen ist, der ungefähr zwischen 400 und 700 nm liegt.
 
-Laut dem Datenblatt,  hat dieser Sensor eine Reichweite von 2 bis 200.000 Lux, bei einer Auflösung von 3 Lux. Des Weiteren muss der Sensor mit 3,3V betrieben werden.
+Laut dem Datenblatt hat dieser Sensor eine Reichweite von 2 bis 200.000 Lux, bei einer Auflösung von 3 Lux. Des Weiteren muss der Sensor mit 3,3V betrieben werden.
 
 ##Aufbau
 
 <image src="https://github.com/sensebox/OER/blob/master/senseBox_edu/images/Aufbau_station_6.png"/>
 
 ##Grundlagen
-Zur manuellen Programmierung benutzt du dieses Mal nur die Wire Bibliothek. Am Anfang brauchst du ein paar Konstanten, die mit der Direktive #define definiert werden. Anders als bei Variablen, belegen sie einen festen Platz im Speicher, der sich nur auslesen, aber nicht beschreiben lässt. In unserem Falle soll die Busadresse, sowie die folgenden Registeradressen des Sensors gespeichert werden. 
+Zur manuellen Programmierung benutzt du dieses Mal nur die Wire-Bibliothek. Am Anfang brauchst du ein paar Konstanten, die mit der Direktive #define definiert werden. Anders als bei Variablen belegen sie einen festen Platz im Speicher, der sich nur auslesen, aber nicht beschreiben lässt. In unserem Falle soll die Busadresse sowie die folgenden Registeradressen des Sensors gespeichert werden. 
 
 <image src="https://github.com/sensebox/OER/blob/master/senseBox_edu/images/Grundlagen_Station_6.png"/>
 
@@ -77,7 +77,7 @@ while(Wire.available()){
 }
 ```
 
-***Hinweis:*** *Ähnlich wie bei unserer loop-Funktion, führt eine while-Schleife die Anweisungen in den geschweiften Klammern immer wieder aufs Neue aus. Abgebrochen wird sie erst dann, wenn die Bedingung nicht mehr erfüllt wird.*
+***Hinweis:*** *Ähnlich wie bei unserer loop-Funktion führt eine while-Schleife die Anweisungen in den geschweiften Klammern immer wieder aufs Neue aus. Abgebrochen wird sie erst dann, wenn die Bedingung nicht mehr erfüllt wird.*
 
 Zu guter Letzt nutzt du die ausgelesenen Datenbytes, um Beleuchtungsstärke in Lux auszurechnen. Im Datenblatt findet sich die dazu passende Formel:
 
@@ -90,9 +90,9 @@ lux = lux * 1; //Multiplikator für 400ms
 Um diese Formel auf eine Belichtungszeit von 200 oder 100ms anzupassen, musst du nur den Multiplikator auf 2 bzw. 4 erhöhen.
 
 ##Aufgabe 1
-Füge den Code aus dieser Lektion zusammen, und ergänze eine Funktion um die Daten im Seriellen Monitor ausgeben zu lassen.
+Füge den Code aus dieser Lektion zusammen und ergänze eine Funktion um die Daten im Seriellen Monitor ausgeben zu lassen.
 
 ##Aufgabe 2
 Ändere die Belichtungszeit des Sensors und vergleiche danach die Ergebnisse der Messungen. 
 
-***Tipp:*** *Vergiss nicht neben der Belichtungszeit im Konfigurationsregister auch die Berechnung des Lux-Wertes entsprechend anzupassen.*
+***Tipp:*** *Vergiss nicht, neben der Belichtungszeit im Konfigurationsregister auch die Berechnung des Lux-Wertes entsprechend anzupassen.*
