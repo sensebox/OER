@@ -21,7 +21,7 @@ Zur Ausgabe der Informationen benutzt du in der loop-Funktion die Befehle
 ```
 Serial.print(Variable);
 Serial.println(Variable);	
-Serial.print(“Hallo Welt”);
+Serial.print("Hallo Welt");
 ```
 Eine Variable kann einfach in die Klammern geschrieben werden, möchtest du jedoch ein Wort oder einen Satz (eine solche Zeichenkette nennt sich String) anzeigen lassen, musst du diesen in Anführungszeichen stellen.
 Der Anhang ‘ln’ hat zur Folge, dass jede Information in einer neuen Zeile (ln = line) angezeigt wird. Ein Sketch würde also wie folgt aussehen:
@@ -32,7 +32,7 @@ void setup(){
 }
 
 void loop(){
-  Serial.println(„SenseBox rocks“);
+  Serial.println("SenseBox rocks");
 }
 ```
 Um eingehende Signale verarbeiten zu können, müssen sie in Variablen gespeichert werden. Eine Variable ist die Benennung einer Information mit einem Namen und Speicherplatz für die spätere Verwendung. Wie der Name schon vermuten lässt, können Variablen ihre Werte kontinuierlich verändern und stehen somit im Gegensatz zu Konstanten, deren Wert über den kompletten Programmablauf gleich bleibt. In Variablen können verschiedene Arten von Daten gespeichert werden, z.B. Zeichenketten (=Strings) oder ganze Zahlen (=int). Strings und Integer sind solche Datentypen, von denen du später noch weitere kennenlernen wirst. Jede Variable muss von einem bestimmten Datentyp sein.
