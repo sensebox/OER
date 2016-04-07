@@ -1,7 +1,7 @@
 #include <Wire.h>
 #include <HDC100X.h>
 
-HDC100X HDC1(0,0);
+HDC100X HDC1(0x43);
 
 
 #define LED 13
