@@ -24,21 +24,13 @@
 
  */
 
-// TODO: Obsolete
-/*
- int year = 2016;
- int month = 4;
- int day = 7;
- */
-
 // Instanz der UDP Klasse aus der Arduino Standart-Ethernet-Bibliothek
 EthernetUDP udp;
 
 // Geben sie eine MAC und eine IP Adresse für den Arduino an.
 // Der Aufbau der IP Adresse hängt von den lokalen Netzwerkeinstellungen ab.
-
 byte mac[] = {
-  0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED
+  0xDF, 0xAD, 0xBE, 0xEF, 0xFA, 0xED
 };
 
 byte ip[] = { 192, 168, 0, 15 };
@@ -48,9 +40,6 @@ RV8523 rtc;
 
 // Deklaration interner Variablen
 char string[ 17 ] = { "" };
-
-// TODO: Obsolete ?
-int stunde, minute, sekunde;
 
 unsigned int localPort = 8888;      // Lokaler Port für UDP-Pakete
 
@@ -114,26 +103,24 @@ void loop()
     // Siebzig Jahre von NTP Zeit abziehen:
     unsigned long epoch = secsSince1900 - seventyYears;
 
-
-
     // Updaten der Real Time Clock:
     updateTime(epoch);
 
     Serial.println("Synchronisation erfolgreich! Nächste Synchronisation in 30 Sekunden.");
     Serial.println("");
+    delay(30000);
   } else {
-    Serial.println("Keine Verbindung zum Server: Erneuter Versuch in 10 Sekunden.");
+    Serial.println("Keine Verbindung zum Server. Erneuter Versuch in 10 Sekunden.");
     delay (10000);
   }
-  // 30 Sekunden Verzögerung zwischen Synchronisationen
-  delay(30000);
 }
 
 // Senden einer NTP Anfrage an den Zeitserver an der angegeben Adresse
 unsigned long sendNTPpacket(char *address)
 {
-  // Buffer auf 0 setzen
+  // internen Buffer auf 0 setzen
   memset(packetBuffer, 0, NTP_PACKET_SIZE);
+  
   // Variablen für das NTP Paket setzen
   // (Für nähere Informationen: Link siehe oben)
   packetBuffer[0] = 0b11100011;   // LI, Version, Modus
@@ -147,15 +134,12 @@ unsigned long sendNTPpacket(char *address)
   packetBuffer[15]  = 52;
 
   // Senden des NTP Paketes an den Zeitserver auf Port 123
-
   udp.beginPacket(address, 123);
   udp.write(packetBuffer, NTP_PACKET_SIZE);
   udp.endPacket();
 }
 
 void updateTime(unsigned long epoch) {
-
-
 
   // Berechnung von Stunde/Minute/Sekunde basierend auf Unix Zeit
   int stunde_ntp = (epoch % 86400L) / 3600;
@@ -169,17 +153,16 @@ void updateTime(unsigned long epoch) {
   int tag_ntp;
   int monat_ntp;
   int jahr_ntp;
-
+  
   calculateDMYfromUnix(&tag_ntp, &monat_ntp, &jahr_ntp, epoch);
 
   // Setzen der RTC
   rtc.set(sekunde_ntp, minute_ntp, stunde_ntp, tag_ntp, monat_ntp, jahr_ntp);
 
   // Auslesen der RTC - Ausgabe in den Seriellen Monitor
-
   int seconds_rtc, minute_rtc, hour_rtc, day_rtc, month_rtc, year_rtc;
   rtc.get(&seconds_rtc, &minute_rtc, &hour_rtc, &day_rtc, &month_rtc, &year_rtc);
-  Serial.print("Current Clock Time is: ");
+  Serial.print("Aktuelle Zeit: ");
   Serial.print(year_rtc);
   Serial.print("/");
   Serial.print(month_rtc);
@@ -193,7 +176,6 @@ void updateTime(unsigned long epoch) {
   Serial.println(seconds_rtc);
 }
 void calculateDMYfromUnix(int *tag_ntp, int *monat_ntp, int *jahr_ntp, long epoch) {
-
   
   // Lokale Variablen Initialisieren
   static unsigned short const tage[4][12] =
@@ -235,4 +217,3 @@ void calculateDMYfromUnix(int *tag_ntp, int *monat_ntp, int *jahr_ntp, long epoc
   *monat_ntp = monat;
   *tag_ntp   = epoch - tage[jahr][monat] + 1; // Verschiebung durch Array Index 
 }
-
