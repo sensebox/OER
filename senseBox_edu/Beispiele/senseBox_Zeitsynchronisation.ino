@@ -5,29 +5,30 @@
 #include <Wire.h>
 
 /*
- Udp NTP Client
+ Zeitsynchronisation für das senseShield
 
- Synchronisiert eine RV8523 Real Time Clock anhand eines Ntp-Servers zu GMT+1
+ Synchronisiert eine RV8523 RTC (Real Time Clock) wie sie auf dem Senseshield verbaut ist anhand eines Ntp-Servers zu GMT+1 (ohne Sommerzeit)
  Für weitere Informationen zu NTP Servern und dem Aufbau des NTP siehe
  http://de.wikipedia.org/wiki/Network_Time_Protocol
 
+ Dieser Code basiert auf dem Beispiel eines NTPClient in der Standart Ethernet-library. 
+ Weitere informationen unter https://www.arduino.cc/en/Tutorial/UdpNtpClient
+ 
  erstellt am  4 Sep 2010
  by Michael Margolis
  modifiziert am 17 Sep 2010
  by Tom Igoe
- modifiziert am 23 Oct 2010
- by Juergen Mayer, DL8MA, Grossheppach
+ modifiziert am 2.9.2015
+ by Arturo Guadalupi
  modifiziert am 06 Apr 2016
  by SpeckiJ
-
- This code is in the public domain.
 
  */
 
 // Instanz der UDP Klasse aus der Arduino Standart-Ethernet-Bibliothek
 EthernetUDP udp;
 
-// Geben sie eine MAC und eine IP Adresse für den Arduino an.
+// Eine feste MAC Adresse sowie IP werden vergeben.
 // Der Aufbau der IP Adresse hängt von den lokalen Netzwerkeinstellungen ab.
 byte mac[] = {
   0xDF, 0xAD, 0xBE, 0xEF, 0xFA, 0xED
@@ -40,7 +41,6 @@ RV8523 rtc;
 
 // Deklaration interner Variablen
 char string[ 17 ] = { "" };
-
 unsigned int localPort = 8888;      // Lokaler Port für UDP-Pakete
 
 // Adresse des Synchronisierungsservers
@@ -49,7 +49,6 @@ char timeServer[] = "de.pool.ntp.org";
 const int NTP_PACKET_SIZE = 48; // NTP Informationen befinden sich in den ersten 48 bytes der Nachricht
 
 byte packetBuffer[ NTP_PACKET_SIZE]; // Buffer für Ein-/Ausgehende Pakete
-
 
 void setup()
 {
@@ -67,9 +66,6 @@ void setup()
   } else {
     udp.begin(localPort);
   }
-
-
-
 
   // RTC schaltet bei Stromverlust auf die interne Batterie um
   rtc.batterySwitchOver(1);
