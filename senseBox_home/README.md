@@ -5,11 +5,11 @@ senseBox Home -- Bauanleitung
 
 > - Durch elektrostatische Entladung können die Bauteile beschädigt oder sogar zerstört werden! Daher solltet ihr euch z.B. an einem Heizungsrohr entladen, bevor ihr mit dem Aufbau anfangt.
 > - Elektronische Bauteile und Leiterplatten können Chemikalien enthalten. Daher solltet ihr nach dem Aufbau oder Gebrauch euch die Hände waschen.
-> - Elektronik sollte umweltfreundlich entsorgt werden und bei Sammelstellen abgegeben werden.
+> - Elektronik sollte umweltfreundlich entsorgt und bei Sammelstellen abgegeben werden.
 
 ---
 ###0. Inhalt der SenseBox
-Bevor es los geht, solltet ihr unbedingt überprüfen, 0b alle Bauteile vorhanden sind. Unterhalb findet ihr dazu eine Inventarliste.
+Bevor es los geht, solltet ihr unbedingt überprüfen, Ob alle Bauteile vorhanden sind. Unterhalb findet ihr dazu eine Inventarliste.
 
 <image src="https://github.com/sensebox/OER/blob/master/senseBox_home/images/01_contents.png"/>
 
@@ -32,7 +32,7 @@ Bevor es los geht, solltet ihr unbedingt überprüfen, 0b alle Bauteile vorhande
 - 1x langes Verbindungskabel für Thermometer bzw. Hygrometer
 - 3x kurzes Verbindungskabel für Barometer, Luxmeter und UV-Lichtsensor
 
-**D. Netzteil für den Stomanschluss**
+**D. Netzteil für den Stromanschluss**
 
 ---
 
@@ -57,7 +57,7 @@ Bevor die SenseBox aktiviert werden kann müsst ihr Treiber, sowie eine Software
 Falls etwas bei dem Testlauf schief geht, meldet euch am besten bei unserem Support. Kontaktdaten und Ansprechpartner findet ihr im Anhang.
 
 ####2.1 Arduino Software installieren
-Das Mainboard der SenseBox ist eine modifizierte Version des Arduino Uno Mikrocontrollers. Um ein Programm auf das Board zu laden, braucht ihr die integrierte Entwicklungsumgebung von Arduino, kurz Arduino IDE. So ladet ihr die neuste Version als Zip-Datein von der Arduino Homepage herunter:
+Das Mainboard der SenseBox ist eine modifizierte Version des Arduino Uno Mikrocontrollers. Um ein Programm auf das Board zu laden, braucht ihr die integrierte Entwicklungsumgebung von Arduino, kurz Arduino IDE. So ladet ihr die neuste Version als Zip-Datei von der Arduino Homepage herunter:
 
 [www.arduino.cc/en/main/software](https://www.arduino.cc/en/main/software)
 

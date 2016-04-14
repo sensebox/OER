@@ -51,7 +51,7 @@ Auf dem so erzeugten dataFile kannst du, ähnlich wie beim seriellen Monitor, di
 
 ```
 dataFile = SD.open ("Data.csv", FILE_WRITE);
-dataFile.print (“SenseBox rocks schools!”);
+dataFile.print ("SenseBox rocks schools!");
 dataFile.close();
 ```
 

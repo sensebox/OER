@@ -52,7 +52,7 @@ HDC100X HDC(0x43);
 Durch diesen Befehl hast du nun den Sensor HDC vom Typ HDC100X angelegt. Jetzt muss dieser Sensor in der Setup-Funktion wie folgt gestartet werden:
 
 ```
-HDC.begin(HDC100X_TEMP_HUMI, HDC100X_aufbau, HDC100X_14BIT, DISABLE);
+HDC.begin(HDC100X_TEMP_HUMI, HDC100X_14BIT, HDC100X_14BIT, DISABLE);
 ```
 Die Argumente der begin-Funktion geben dabei an, dass Temperatur und Luftfeuchte gemessen werden, jeweils in einer Auflösung von 14 Bit, und dass das Heizelement des Sensors deaktiviert werden soll.
 Nachdem du den Sensor, wie oben beschrieben, initialisiert hast, kannst du zwei Befehle in der loop-Funktion nutzen, um einen Temperatur- bzw. Feuchtigkeitswert ausgeben zu lassen:
