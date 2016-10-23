@@ -1,6 +1,6 @@
 # OER
 
-Dieses Repository wurde ersetzt! Die entsprechenden Inhalte sind nun an den foglenden Orten zu finden:
+Dieses Repository wurde ersetzt! Die entsprechenden Inhalte sind nun an den folgenden Orten zu finden:
 
 - Anleitungen / Dokumentation: [sensebox/books](https://github.com/sensebox/books)
   - [senseBox:edu](https://sensebox.github.io/books/edu/de/)
