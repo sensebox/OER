@@ -1,13 +1,12 @@
-## DEPRECATION
-Dieses repository wird bald durch folgende repositories ersetzt:
-- [sensebox/resources](https://github.com/sensebox/resources): BLOBs (libraries, images, datasheets, code examples)
-- [sensebox/books](https://github.com/sensebox/books): documentation / tutorials / ...
+# OER
 
-Neue Inhalte bitte direkt dort einfügen
+Dieses Repository wurde ersetzt! Die entsprechenden Inhalte sind nun an den foglenden Orten zu finden:
 
-# Anleitungen
-
-In diesem Repository findet ihr Tutorials und Anleitungen zum Aufbau der SenseBox, und der Integration in das Sensornetzwerk auf der [OpenSenseMap](http://www.opensensemap.org). Die Dokumente sind als Open Educational Ressources (OER) unter der Creative Commons 4.0 CC-BY-SA Lizenz veröffentlicht.
-
-
-[Hier](https://github.com/sensebox/oer/wiki) geht es weiter zum Wiki.
+- Anleitungen / Dokumentation: [sensebox/books](https://github.com/sensebox/books)
+  - [senseBox:edu](https://sensebox.github.io/books/edu/de/)
+  - [senseBox:home](https://sensebox.github.io/books/home/de/)
+  - [openSenseMap](https://sensebox.github.io/books/osem/de/)
+- [sensebox/resources](https://github.com/sensebox/resources)
+  - [senseBox Libraries](https://github.com/sensebox/resources/tree/master/libraries) ([Direktlink zum ziparchiv](https://github.com/sensebox/resources/raw/master/libraries/senseBox_Libraries.zip))
+  - [Code-Beispiele](https://github.com/sensebox/resources/tree/master/code)
+  - [Datenblätter der Sensoren](https://github.com/sensebox/resources/tree/master/datasheets)
